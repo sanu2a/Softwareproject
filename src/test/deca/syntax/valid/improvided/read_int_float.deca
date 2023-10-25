@@ -1,0 +1,10 @@
+// Description :
+// 	Test de readInt() et readFloat()
+// Resultats :
+//	ok
+
+
+{
+	int x = readInt();
+	float y = readFloat();
+}

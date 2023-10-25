@@ -1,0 +1,19 @@
+// Description :
+// 	Test des valeurs essentielles de ulp 
+// Resultats:
+//	ok 
+#include "Math.decah"
+  {
+    Math m = new Math();
+
+    println("-----test ulp------------------------");
+
+    printlnx("ulp(100000.0)= ",m.ulp(100000));
+    printlnx("ulp(2^-23)= ",m.ulp(m.puiss(2,-23)) );
+    printlnx("ulp(1.0)= ",m.ulp(1.0));
+    printlnx("ulp(0.0)= ",m.ulp(0.0));
+    printlnx("ulp(10000000)= ",m.ulp(10000000));
+    printlnx("ulp(10^-38)= ",m.ulp(m.puiss(10,-38) ) );
+    printlnx("ulp(m.pi_float_value)=",m.ulp(m.pi_float_value));
+
+    }

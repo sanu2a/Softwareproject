@@ -1,0 +1,14 @@
+// Description:
+//   Une double définition d'un field.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 9: You cannot assign a float to an int without cast.
+
+class A {
+   int x;
+   int x;
+}
+class B extends A{
+}
+

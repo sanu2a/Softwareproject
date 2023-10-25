@@ -1,0 +1,50 @@
+// Description:
+// test de class, extends, override,appel methode
+// Resultat:
+//Je suis A  je suis B  je suis C  je suis D Je suis A je suis E, je suis pas fils de A
+
+
+
+class A {
+   void m(){
+   print(" Je suis A ");
+}
+}
+
+class B extends A {
+
+ void m1(){
+  this.m();
+  print(" je suis B ");
+}
+
+}
+class C extends B {
+  void m2(){
+  this.m1();
+  print(" je suis C ");
+}
+}
+ class D extends C {
+
+void m3(){
+ this.m2();
+ print(" je suis D");
+}
+}
+class E extends D{
+void m(){
+ println("je suis E, je suis pas fils de A");
+}
+}
+
+
+
+{
+E e = new E();
+D d = new D();
+d.m3();
+d.m();
+e.m();
+}
+

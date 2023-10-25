@@ -1,0 +1,56 @@
+// Description :
+// 	Test des valeurs essentielles de cos
+// Resultats:
+//	ok 
+#include "Math.decah"
+{
+    Math m = new Math();
+   
+    println("cos(-2pi)= ",m.cos(-2*m.pi_float_value));
+    printlnx(m.cos(-2*m.pi_float_value));
+    printlnx("valeur qu'il faut trouver calculé par java:",1.0);
+    
+    println("-----------------------");   
+    println("cos(2pi)= ",m.cos(2*m.pi_float_value));
+    printlnx(m.cos(2*m.pi_float_value));
+    printlnx("valeur qu'il faut trouver calculé par java:",1.0);
+    
+    println("-----------------------");   
+    println("cos(pi)= ",m.cos(m.pi_float_value));
+    printlnx(m.cos(m.pi_float_value));
+    printlnx("valeur qu'il faut trouver calculé par java:",-1.0);
+    
+    println("-----------------------");   
+    println("cos(0.0)= ",m.cos(0.0));
+    printlnx(m.cos(0.0));
+    printlnx("valeur qu'il faut trouver calculé par java:",1.0);
+
+    println("-----------------------");
+    println("cos(pi/4)= ",m.cos(m.pi_float_value/4));
+    printlnx(m.cos(m.pi_float_value/4));
+    printlnx("valeur qu'il faut trouver calculé par java:",0.70710678);
+
+    println("-----------------------");
+    println("cos(pi/8)= ",m.cos(m.pi_float_value/8));
+    printlnx(m.cos(m.pi_float_value/8));
+    printlnx("valeur qu'il faut trouver calculé par java:",0.92387953);
+
+    println("-----------------------");
+    println("cos(pi/12)= ",m.cos(m.pi_float_value/12));
+    printlnx(m.cos(m.pi_float_value/12));
+    printlnx("valeur qu'il faut trouver calculé par java:",0.96592582);
+
+    println("-----------------------");
+    println("cos(pi/16)= ",m.cos(m.pi_float_value/16));
+    printlnx(m.cos(m.pi_float_value/16));
+    printlnx("valeur qu'il faut trouver calculé par java:",0.98078528);
+
+
+
+//on trouve une difference de 0.00005; cela revient au probleme d'imprécision
+    println("cos(20)= ",m.cos(20));
+    printlnx(m.cos(20) );
+    printlnx("valeur qu'il faut trouver calculé par java:",0.40808206181);
+    
+    println("-----------------------");   
+}

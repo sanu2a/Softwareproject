@@ -1,0 +1,47 @@
+	TSTO #4
+	BOV pilePleine
+	ADDSP #4
+; start main program
+	LOAD #null, R0
+	STORE R0, 1(GB)
+	LOAD code.Object.equals, R0
+	STORE R0, 2(GB)
+; Main program
+; Beginning of variables declaration:
+	RFLOAT
+	BOV readError
+	LOAD R1, R2
+	STORE R2, 3(GB)
+; Beginning of main instructions:
+	WSTR "x= "
+	LOAD 3(GB), R1
+	WFLOAT
+	WNL
+	HALT
+pilePleine:
+	WSTR "Erreur : Débordement de pile"
+	WNL
+	ERROR
+tasPlein:
+	WSTR "Erreur : Débordement de tas"
+	WNL
+	ERROR
+readError:
+	WSTR "Erreur : Entrée/Sortie"
+	WNL
+	ERROR
+OV:
+	WSTR "Erreur : Débordement opération arithmétique"
+	WNL
+	ERROR
+dereferencement_null:
+	WSTR "Erreur : dereferencement de null"
+	WNL
+	ERROR
+code.object.equals:
+	LOAD -2(LB), R0
+	LOAD -3(LB), R1
+	CMP R0, R1
+	SEQ R0
+	RTS
+; end main program

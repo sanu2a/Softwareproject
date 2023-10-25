@@ -1,0 +1,7 @@
+// Description :
+//	Bloc not opened
+// Resultats :
+// 	Ligne 6 : 
+
+	print("not opened ");
+} 

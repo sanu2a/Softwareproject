@@ -1,0 +1,13 @@
+// Descripition:
+// test de if avec assign qui doit etre négligé par if
+// Resultat:
+// ok
+{
+	boolean a = false;
+	if (a = false){
+		println("ko");
+	} else {
+		println("ok");
+	}
+}
+

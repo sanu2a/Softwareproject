@@ -1,0 +1,10 @@
+// Description:
+//   Double definition d'un paramètre 
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 8: The given paramater exists already.
+class A{
+    int getX(int y, float z, int y){}
+}
+

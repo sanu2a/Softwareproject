@@ -1,0 +1,65 @@
+// Description :
+// la classe intervalle hérite la classe point, test de override, selection des champs
+//
+// Resultats :
+//L'intervalle: [10:50]
+//Les multiples de 6 qui sont entre 10 50: 
+//12
+//18
+//24
+//30
+//36
+//42
+//48
+
+
+class point {
+ int x = 1;
+ void setpoint(int e){
+  x=e;
+}
+void toString(){
+ println("x = ",x);
+}
+
+}
+
+class intervalle extends point {
+ int y;
+  void setinterval(int e){
+  y=e;
+}
+
+void toString(){
+ println("L'intervalle: [",x,":",y,"]");
+}
+
+
+void getmultiple(int a){
+  int i = x;
+  println("Les multiples de ",a, " qui sont entre ",this.x," ",this.y,": ");
+  while (i <=y){
+  if (i%a ==0){
+     println(i);
+ }
+ i = i+1;
+
+
+}
+
+} 
+
+
+ 
+}
+{
+
+intervalle intervalle = new intervalle();
+
+intervalle.setinterval(50);
+intervalle.setpoint(10);
+intervalle.toString();
+intervalle.getmultiple(6);
+
+
+}

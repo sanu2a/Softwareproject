@@ -1,0 +1,9 @@
+{
+   // Description:
+   //   Test du cast explicite avec le type incompatible.
+   //
+   // Résultats:
+   //   Erreur Contextuelle
+   //   Ligne 8: We cannot cast to Void Type.
+   boolean z = (void) (3.3);
+}

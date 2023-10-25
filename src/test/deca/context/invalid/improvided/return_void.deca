@@ -1,0 +1,11 @@
+// Description:
+//   Retour d'une fonction avec un type void.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 9: A method with void type to return should not have a return statement. 
+class A{
+    void setX(int a){
+        return 3;
+    }
+}

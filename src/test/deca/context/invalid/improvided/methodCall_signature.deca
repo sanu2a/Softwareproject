@@ -1,0 +1,16 @@
+// Description:
+//   Appeler une méthode avec une mauvaise signature sur un bon type.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 14: The given signature doesn't match with the signature of the used method.
+
+class A{
+    protected int a;
+    int setX(int a, float z){}
+}
+{
+    A a = new A();
+    a.setX(3);
+}
+

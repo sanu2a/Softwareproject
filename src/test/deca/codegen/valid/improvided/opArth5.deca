@@ -1,0 +1,10 @@
+// Description:
+// test d operation arithmétique dans le print
+// Resultat:
+// 2
+{
+    
+  print(3*2+(6%4)*2-5+2);
+}
+
+//Resultat 3

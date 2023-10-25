@@ -1,0 +1,11 @@
+// Description:
+//   Definir une nouvelle methode avec un nom de methode déjà existant
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 9: The given method name is already used.
+class A{
+    int m(int y, float z){}
+    float m(Object o){}
+}
+

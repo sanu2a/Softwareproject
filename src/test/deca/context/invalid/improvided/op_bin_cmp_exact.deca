@@ -1,0 +1,8 @@
+{
+  // Description:
+  //  Test de la comparaison exact entre deux types booléens.
+  // 
+  // Résultats:
+  //  Ligne : The comparaison operator cannot be done between two boolean.
+  boolean z = true > false;
+}

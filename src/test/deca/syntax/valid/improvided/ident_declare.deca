@@ -1,0 +1,12 @@
+// Description :
+//	Utilisation d'une variable deja declarée.
+// Resultats :
+// 	ok 
+
+{
+	int x = 2;
+	// A ce moment la varibale est ajoutée a l'environnement exp
+	// On l'utilise dans une autre operation 
+	int z = x;
+}
+

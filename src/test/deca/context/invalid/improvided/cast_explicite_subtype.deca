@@ -1,0 +1,9 @@
+{
+   // Description :
+   //   Test du cast explicite avec un type incompatible.
+   //
+   // Résultats :
+   //   Erreur Contextuelle
+   //   Ligne 8: The given type is not a subtype.
+   boolean z = (boolean) (3.3);
+}

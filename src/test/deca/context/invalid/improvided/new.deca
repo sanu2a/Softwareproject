@@ -1,0 +1,10 @@
+// Description:
+//   Instanciation avec un type invalide
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 9: The given type for Cast isn't compatible.
+
+{
+   float z = new float();
+}

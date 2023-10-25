@@ -1,0 +1,5 @@
+// erreur dans l'inclusion : manque de '"' au debut fu filename.
+#include included.deca
+{
+        println("inclu");
+}

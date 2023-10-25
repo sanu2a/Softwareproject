@@ -1,0 +1,18 @@
+// Description:
+// test de if avec les booleans ,assign, AND
+// Resultat:
+// 0
+
+{
+ boolean x = false;
+ boolean y = false;
+ boolean z ;
+ z = x && y;
+if (z == false){
+   print(0);
+} else {
+  print("erreur");
+}
+}
+
+// Resultat 0

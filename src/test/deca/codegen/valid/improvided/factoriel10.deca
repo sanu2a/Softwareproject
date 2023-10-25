@@ -1,0 +1,18 @@
+// Descripition:
+// calcul de factorielle
+// Resultat:
+// 3628800
+
+
+{
+ int i = 2;
+ int r = 1;
+ while (i < 11){
+  r = r * i;
+  i = i+1;
+}
+
+print(r);
+
+}
+

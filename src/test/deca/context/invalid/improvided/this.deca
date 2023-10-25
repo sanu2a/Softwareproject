@@ -1,0 +1,15 @@
+// Description:
+//   test d'utilisation de this au sein du main
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 13: This cannot be used at the main.
+class A{
+        int x;
+        void getX(){}
+}
+{
+        A a;
+        this.a;
+}
+

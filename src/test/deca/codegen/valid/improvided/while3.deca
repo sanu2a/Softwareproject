@@ -1,0 +1,28 @@
+ //Description:
+//   test de while
+
+// Resultat:
+// 2
+//3
+//4
+//5
+//0
+//1
+//2
+{
+int x = 0;
+int y = 2;
+while (x < 3){
+   while (y <6){
+    println(y);
+   y = y+1;
+
+}
+println(x);
+x =x+1;
+
+} 
+
+
+}
+

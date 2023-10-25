@@ -1,0 +1,9 @@
+// Description :
+//	 Declaration des variables de type predefinis sans initialisation 
+// Resultats :
+//	ok
+{
+	int x;	
+	float z; 
+	boolean t;
+}

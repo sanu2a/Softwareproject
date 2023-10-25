@@ -1,0 +1,38 @@
+// Description :
+// 	Test de quelques valeurs de sin 
+// Resultats:
+//	ok 
+
+#include "Math.decah"
+ {
+    Math m = new Math();
+
+    println("-------------test_sin----------------");
+    
+    println("sin(pi/3)= ",m.sin(m.pi_float_value/3));
+    printlnx(m.sin(m.pi_float_value/3) );
+    printlnx(0.86602540378);
+    println("-----------------------------");
+
+    println("sin(pi/4)= ",m.sin(m.pi_float_value/4));
+    printlnx(m.sin(m.pi_float_value/4));
+    printlnx(0.70710678);
+    println("-----------------------------");
+
+    println("sin(pi/8)= ",m.sin(m.pi_float_value/8));
+    printlnx(m.sin(m.pi_float_value/8));
+    printlnx(0.38268343);
+    println("-----------------------------");
+
+    println("sin(pi/12)= ",m.sin(m.pi_float_value/12));
+    printlnx(m.sin(m.pi_float_value/12));
+    printlnx(0.258819);
+    println("-----------------------------");
+
+    println("sin(pi/16)= ",m.sin(m.pi_float_value/16));
+    printlnx(m.sin(m.pi_float_value/16));
+    printlnx(0.19509032);
+    println("-----------------------------");
+
+
+}

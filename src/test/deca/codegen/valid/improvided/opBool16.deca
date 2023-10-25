@@ -1,0 +1,18 @@
+// Description:
+// test de if avec les booleans et equals     
+// Resultat:
+// 3iyan nadi
+
+{
+    boolean v  = false;
+    
+    if ((v == true) == (v == v)) {
+        println("3iyan");
+    }
+    
+    if ((v == v) == (v == v)) {
+        println("3iyan nadi");
+    }
+    
+}
+

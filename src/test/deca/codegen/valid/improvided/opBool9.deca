@@ -1,0 +1,18 @@
+// Description:
+// test de if avec les booleans et comparaison
+// Resultat:
+// 1
+
+{
+ float x = 0.2;
+ boolean y = x > 0.1;
+ 
+   if (y == true){
+   print(1);
+} else{
+   print("erreur");
+}
+
+}
+
+

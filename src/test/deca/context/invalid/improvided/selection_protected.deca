@@ -1,0 +1,13 @@
+// Description:
+//   Selection d'un field protected
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 9: The specification about fields doesn't allow the access to the used field.
+class A{
+     protected int a;
+}
+{
+    A z;
+    z.a;
+}

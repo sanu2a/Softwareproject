@@ -1,0 +1,9 @@
+{
+  // Description:
+   //   Test du minus unaire avec un type incompatible.
+   //
+   // Résultats:
+   //   Erreur Contextuelle
+   //   Ligne 7: The unary operation (Minus) cannot be done due to the given type.
+   boolean x = -true; 
+}

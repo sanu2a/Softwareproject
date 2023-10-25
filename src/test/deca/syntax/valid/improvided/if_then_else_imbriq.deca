@@ -1,0 +1,17 @@
+// Description :
+// 	test d'un ifthenelse imbrique
+// Resultats :
+// 	ok
+{
+	if (true){
+		print("ok");
+	}
+	else{
+		if (false){
+			println("Ahaaaa");
+		}
+		else{
+			print("Ohoooo");	
+		}
+	}
+}

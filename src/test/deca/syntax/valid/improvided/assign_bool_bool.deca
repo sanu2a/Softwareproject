@@ -1,0 +1,9 @@
+// Description : 
+//	Affectation d'un boolean a un boolean
+// Resultats :
+//	ok
+{
+	boolean z;
+	boolean t = true;
+	z = t;
+}

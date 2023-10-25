@@ -1,0 +1,11 @@
+// Description :
+//      division entre deux flottant
+// Resultats :
+//  6.66667e-01 
+{
+    float x = 3.0;
+    int t = 2;
+    float z = t/x;
+    println(z);
+}
+

@@ -1,0 +1,16 @@
+// Description:
+// test de if avec les booleans et comparaison et AND
+// Resultat:
+// 1
+
+{ 
+ int x = 3;
+ int y = 6;
+ boolean z = (y>x) && (y > 4);
+  if (z == true){
+   print(1);
+} else{
+   print("erreur");
+}
+}
+// Resultat 1

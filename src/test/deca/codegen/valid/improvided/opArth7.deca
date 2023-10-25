@@ -1,0 +1,13 @@
+// Description:
+// test d operation arithmétique avec les parentheses
+// Resultat:
+// 26
+{
+    int x = 1;
+    int y = (x + 1) + ((x - 1) + ((x - 1) + ((x - 1) +
+  ((x + 1) + ((-x + 1) + ((-x + 1) + ((x + 1) + ((x + 1) + ((x + 1) + ((x + 1) + ((x + 1) + ((x + 1) + ((x + 1) + ((x + 1) + ((x + 1) + ((x + 1) + (x + 1)))))))))))))))));
+    println(y);
+
+
+
+}

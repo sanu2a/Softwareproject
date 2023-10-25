@@ -1,0 +1,16 @@
+ //Description:
+//   test de class, cast
+
+// Resultat:
+// 
+class A{}
+
+class B extends A {}
+
+{
+
+   B b = new B();
+
+   A a = (A) (b);
+
+}

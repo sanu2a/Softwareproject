@@ -1,0 +1,8 @@
+{
+   // Description:
+   // Le type booléen donné n'est pas booléen.
+   //
+   // Résultats:
+   // Ligne 8: The type of the given expression is not boolean. 
+   if (3){ }
+}

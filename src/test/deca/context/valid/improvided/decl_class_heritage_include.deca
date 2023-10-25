@@ -1,0 +1,10 @@
+// Description :
+// 	Declaration d'une classe E qui etends la classe A(inclusion depuis decl_class.deca)
+// Resultats :
+// 	ok
+#include "decl_class.deca"
+class E extends A {
+	
+}
+
+

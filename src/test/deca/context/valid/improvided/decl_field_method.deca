@@ -1,0 +1,69 @@
+// Description :
+// 	Definition des classes, methodes et champs
+// Resultats :
+//	ok
+class Joueur {
+	protected int ID;
+	int nb_match = 0;
+	protected int salaire;
+	boolean est_attaquant = false;
+	boolean est_defenseur = false;
+	boolean est_gardien = false;
+	 int getID(){
+             return this.ID;
+        }
+	void setID(int ID){
+                this.ID = ID;
+        }
+ 	void jouerMatch(){
+                this.nb_match = this.nb_match + 1;
+        }
+	int getSalaire(){
+		return this.salaire;
+                }
+
+
+
+}
+class Attaquant extends Joueur {
+        float vitesse;
+        boolean est_attaquant = true;
+        protected int salaire = 5000;
+        float getVitesse(){
+            return this.vitesse;
+        }
+}
+class Defenseur extends Joueur{
+        float poids;
+        protected int salaire = 6000;
+        boolean est_defenseur = true;
+        void setPoids(float poids){
+                this.poids = poids;
+        }
+}
+class Gardien extends Joueur {
+        protected int salaire = 7000;
+        int taille;
+        boolean est_gardien = true;
+	int getTaille(){
+                return this.taille;
+        }
+        void setTaille(int taille){
+                this.taille = taille;
+        }
+
+}
+{
+        Joueur joueur1 = new Joueur();
+        Attaquant attaquant1 = new Attaquant();
+        Defenseur defenseur1 = new Defenseur();
+        Gardien gardien = new Gardien();
+        Attaquant attaquant2 = new Attaquant();
+        Defenseur defenseur2 = new Defenseur();
+        if (attaquant2.getSalaire() == attaquant1.getSalaire()){
+                println("Deux attaquannt meme salaire ok");
+        }
+        else {
+                println("Attention test ko");
+        }
+}

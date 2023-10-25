@@ -1,0 +1,8 @@
+{
+   // Description:
+   //  Test avec initialization d'un float avec un boolean.
+   //
+   // Resultats:
+   // Ligne 8: The given types are incompatible.
+   float z = true;
+}

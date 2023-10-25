@@ -1,0 +1,7 @@
+// Description :
+// 	Print un boolean 
+// Resultats :
+// 	Ligne 6 :
+{
+	println(true);
+}

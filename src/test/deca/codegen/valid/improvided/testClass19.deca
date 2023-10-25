@@ -1,0 +1,34 @@
+ //Description:
+//   test de class
+
+// Resultat:
+//0
+//0
+// meme reference
+class Livre{
+
+    int f ;
+
+}
+
+
+class livre{
+
+    int c ;
+
+}
+
+
+{
+
+    Livre livre = new Livre();
+
+    livre l = new livre();
+
+    println(livre.f);
+
+    println(l.c);
+
+}
+
+

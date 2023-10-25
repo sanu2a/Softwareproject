@@ -1,0 +1,51 @@
+`> [6, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [6, 0] Main
+      +> ListDeclVar [List with 6 elements]
+      |  []> [7, 7] DeclVar
+      |  ||  +> [7, 1] Identifier (float)
+      |  ||  +> [7, 7] Identifier (f)
+      |  ||  `> [7, 7] Initialization
+      |  ||     `> [7, 11] Multiply
+      |  ||        +> [7, 11] Int (3)
+      |  ||        `> [7, 13] Float (4.4)
+      |  []> [8, 5] DeclVar
+      |  ||  +> [8, 1] Identifier (int)
+      |  ||  +> [8, 5] Identifier (x)
+      |  ||  `> [8, 5] Initialization
+      |  ||     `> [8, 9] Multiply
+      |  ||        +> [8, 9] Multiply
+      |  ||        |  +> [8, 9] Multiply
+      |  ||        |  |  +> [8, 9] Int (3)
+      |  ||        |  |  `> [8, 11] Int (4)
+      |  ||        |  `> [8, 13] Int (5)
+      |  ||        `> [8, 15] Int (6)
+      |  []> [9, 5] DeclVar
+      |  ||  +> [9, 1] Identifier (int)
+      |  ||  +> [9, 5] Identifier (y)
+      |  ||  `> [9, 5] Initialization
+      |  ||     `> [9, 9] Divide
+      |  ||        +> [9, 9] Int (4)
+      |  ||        `> [9, 11] Int (2)
+      |  []> [10, 5] DeclVar
+      |  ||  +> [10, 1] Identifier (int)
+      |  ||  +> [10, 5] Identifier (z)
+      |  ||  `> [10, 5] Initialization
+      |  ||     `> [10, 9] Modulo
+      |  ||        +> [10, 9] Identifier (x)
+      |  ||        `> [10, 11] Identifier (y)
+      |  []> [11, 5] DeclVar
+      |  ||  +> [11, 1] Identifier (int)
+      |  ||  +> [11, 5] Identifier (t)
+      |  ||  `> [11, 5] Initialization
+      |  ||     `> [11, 9] Plus
+      |  ||        +> [11, 9] Identifier (x)
+      |  ||        `> [11, 13] Identifier (y)
+      |  []> [12, 5] DeclVar
+      |      +> [12, 1] Identifier (int)
+      |      +> [12, 5] Identifier (u)
+      |      `> [12, 5] Initialization
+      |         `> [12, 9] Minus
+      |            +> [12, 9] Identifier (z)
+      |            `> [12, 13] Identifier (y)
+      `> ListInst [List with 0 elements]

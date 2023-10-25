@@ -1,0 +1,11 @@
+`> [5, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [5, 0] Main
+      +> ListDeclVar [List with 0 elements]
+      `> ListInst [List with 1 elements]
+         []> [6, 1] While
+             +> [6, 7] BooleanLiteral (true)
+             `> ListInst [List with 1 elements]
+                []> [7, 2] Println
+                    `> ListExpr [List with 1 elements]
+                       []> [7, 10] StringLiteral (sana)

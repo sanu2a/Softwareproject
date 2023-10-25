@@ -1,0 +1,45 @@
+class B {
+
+        int v = 2;
+
+        int getv(){
+
+                return this.v;
+
+        }
+
+}
+
+
+class D {
+
+        B b = new B();
+
+        B getb(){
+
+                return this.b;
+
+        }
+
+}
+
+
+{
+
+        D d = new D();
+
+        int v = d.getb().getv();
+
+        if(v == 2){
+
+              println("ok");
+
+        }
+
+        else {
+
+              println("ko");
+
+        }
+
+}

@@ -1,0 +1,9 @@
+// Description:
+//   La classe mère déclarée n'existe pas.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 9: The given super class does not exist, or its definition doesn't match Class type.
+
+class A {}
+class B extends C {}

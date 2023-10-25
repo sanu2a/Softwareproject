@@ -1,0 +1,11 @@
+// Description:
+//   Double déclaration d'une classe
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 10: The class already exists.
+
+class A{
+}
+class A{
+}

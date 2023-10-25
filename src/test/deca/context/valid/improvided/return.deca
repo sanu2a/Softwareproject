@@ -1,0 +1,30 @@
+// Description:
+// 	Test des differents types de retour (sous types etc ..)
+// Resultats :
+// 	ok 
+class Personne {
+	Object getObject(){return new Personne();}
+        
+}
+class Mere extends Personne {
+	Personne Epoux;
+	int nb_fils;
+	Mere getObject(){return this;}
+	}
+class Pere extends Personne{
+	Personne Epouse;
+	int nb_fils ;
+	Pere getObject(){return this;}
+}
+class Fils extends Personne{
+	Mere mere;
+	Pere pere;
+	// mere est sous type de personne
+	// Return ok
+	Personne getMere(){ return this.mere; }
+	Personne getPere(){ return this.pere; }
+	Fils getObject(){return this;}
+}
+{
+	
+}

@@ -1,0 +1,19 @@
+// Description 
+// 	test pour afficher des valeurs en hexadecimale
+// Resultats
+// 	0x1.9161cap+6
+//2
+//0x1.91d3aap+6
+//3
+
+{
+	printx(100.3455);
+	println();
+	printx(2);
+	println();
+	printlnx(100.4567);
+	printlnx(3);
+	
+
+
+}

@@ -1,0 +1,47 @@
+// Description :
+// 	redefinition des champs dans les sous classes
+// Resultats:
+// 	ok
+
+class Vehicule {
+    protected float poids = 0;
+    int immatruclation;
+    protected int nb_porte;
+
+    int getNbPorte(){
+       return this.nb_porte;
+   }
+}
+class Camion extends Vehicule {
+    // redefinition of nb_porte as a public field
+    int nb_porte = 3;
+    float getPoids(){
+        // Acces to protected poids
+        return this.poids;
+    }
+}
+class Voiture extends Vehicule{
+    // redefinition of nb_porte as a protected field
+    protected int nb_porte = 4;
+    float getPoids(){
+        // Acces to protected poids
+        return this.poids;
+    }
+}
+{
+    Camion camio = new Camion();
+    Voiture watta = new Voiture();
+    // camio has nb_porte public, the acces is allowed
+    println(camio.nb_porte);
+    // Resultat 3
+    println(watta.getNbPorte());
+    // Resultat 4
+    // the acces to immatruculation is allowed because its a public field
+    camio.immatruclation = 1223465;
+    watta.immatruclation = 1234567;
+    if ((camio.getPoids() == watta.getPoids()) && (watta.getPoids() == 0)){
+        println("ok");
+        }
+}
+
+

@@ -1,0 +1,25 @@
+// Description :
+// 	Test sur intervalle [0,0.0001] de ulp avec step=2^-23 
+// Resultats:
+//	ok 
+#include "Math.decah"
+{
+    Math m = new Math();
+
+    float step=m.puiss(2,-23);
+    int i=0;
+    float vfinal=0.0001;
+    float vinit=0.0;
+    float value=vinit;
+    int nb=0;
+
+    while(value<=vfinal){
+        print(m.ulp(value));
+        println(" , ",value);
+        value=value+step;
+        nb=nb+1;
+    }
+    println();
+    println("le nbre d'echantillon est:", nb);    
+
+}

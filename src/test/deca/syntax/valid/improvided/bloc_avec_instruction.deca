@@ -1,0 +1,9 @@
+// Description :
+// 	test d'un bloc simple avec instruction et declaration de variable
+// Resultats :
+//	ok
+
+{
+	sana x;
+	x = sana;
+}

@@ -1,0 +1,23 @@
+ //Description:
+//   test de class avec des attribut boolean
+
+// Resultat:
+// ok
+class A {
+boolean c1 = true ;
+boolean c2 = false ;
+}
+{
+A a = new A() ;
+if(a.c1){
+println("ok") ;
+} else {
+println("ko") ;
+}
+
+
+
+
+
+
+}

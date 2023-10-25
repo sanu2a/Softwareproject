@@ -1,0 +1,22 @@
+// Description:
+// test de cast dynamique
+// Resultat:
+// moe moe
+// moe moe
+class Animal {
+}
+
+class chat extends Animal {
+void voix() {
+      println("moe moe");
+}
+}
+
+{
+Animal a = new chat();
+chat c = (chat)(a);
+c.voix();
+(chat)(a).voix();        
+
+}
+

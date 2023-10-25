@@ -1,0 +1,33 @@
+// Description:
+// test d'appel de methode, passer résultat d'une appel de méthode en paramétre d'un autre appel méthode
+
+// Resultat:
+// 12
+// 71
+class A {
+int j = 10;
+int k = 5;
+
+int getK(){
+  return k;
+}
+int getJ(){
+  return j;
+}
+void m(int z, int y){
+j = k + y*2 + z%2;
+k = j + z*j - z%2;
+println(j);
+println(k);
+
+}
+void p(){
+}
+
+}
+
+{
+    A a = new A();
+    a.j = 3;
+    a.m(a.getK(), a.getJ());
+}

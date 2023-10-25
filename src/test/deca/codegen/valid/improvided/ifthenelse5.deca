@@ -1,0 +1,16 @@
+// Description:
+// test de if avec OR et equals
+// Resultat
+// 1
+{
+ int x =1;
+ int y =4;
+ if (x ==1 || y == 3){
+  print(x);
+} else {
+  print(y);
+} 
+ 
+}
+
+// Resultat 1

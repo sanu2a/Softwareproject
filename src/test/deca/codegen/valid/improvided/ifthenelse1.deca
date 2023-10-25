@@ -1,0 +1,22 @@
+// Description:
+// test de if avec les booleans et not 
+// Resultat
+// 4
+{
+ boolean z = true;
+ int x= 7;
+ if (x == 1){
+   x = 5;
+} else {
+  x =4;
+}
+if(z){
+	print(x);
+}
+if (!z){
+  print("ko");
+}
+
+}
+
+// Resultat 4

@@ -1,0 +1,10 @@
+// Descriiption :
+// 	decalaration des variables de type predefini avec initialisation
+// Resultats :
+//	ok
+
+{
+	int x = 3;
+	float y = 2.1;
+	boolean z = true;
+}

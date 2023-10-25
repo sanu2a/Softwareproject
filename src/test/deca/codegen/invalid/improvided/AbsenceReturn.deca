@@ -1,0 +1,12 @@
+class A {
+
+int m(){
+
+}
+}
+
+{
+A d = new A();
+int x = d.m();
+
+}

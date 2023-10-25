@@ -1,0 +1,16 @@
+// Description:
+// test de if avec les booleans ,not,
+// Resultat:
+// 0
+
+{
+ boolean x = true;
+ boolean y = !x;
+ if (y == false){
+   print("0");
+} else{
+   print("erreur");
+}
+}
+
+// Resulat 0

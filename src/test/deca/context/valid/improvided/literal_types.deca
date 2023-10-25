@@ -1,0 +1,10 @@
+// Description :
+// 	Test des types literal (int, float, boolean) et un string utilisé dans un print.
+// Resultats :
+// 	ok
+{
+	int x = 3;
+	float z = 3.0;
+	boolean t = true;
+	println("sana zen dl3alam");
+}

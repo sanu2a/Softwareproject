@@ -1,0 +1,13 @@
+// Description:
+//   test du cast vers le type void
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 12: The given type for the Cast is void.
+class A{
+     protected int a;
+}
+{
+    Object o;
+    A a = (void) (o);
+}

@@ -1,0 +1,9 @@
+// Description :
+//	Conversion implicite d'un int --> float (ConvFloat)
+// Resultats :
+// 	ok
+
+{
+	float x = 3;
+	
+}

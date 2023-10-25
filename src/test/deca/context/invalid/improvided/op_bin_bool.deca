@@ -1,0 +1,10 @@
+{
+   // Description:
+   //  Test de l'opération booléenne avec des types non valides.
+   // 
+   // Résultats:
+   //  Ligne 9: The boolean operation cannot be done due to the given types.
+   int x = 3;
+   float y;
+   boolean z = x && y;
+}

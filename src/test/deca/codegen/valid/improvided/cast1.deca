@@ -1,0 +1,19 @@
+class A {
+   int x = 6;
+   float y = 2.3;
+    float getXfloat() {
+	return x;
+    }
+
+    int getyInt() {
+	return (int) (y);
+    }
+}
+
+{
+    A a = new A();
+    float x1 = a.getXfloat();
+    int y1 = a.getyInt();
+    println(x1);
+    println(y1);
+}

@@ -1,0 +1,8 @@
+//Description :
+// 	division par 0
+// Resultats :
+// 	Ligne 6 : Division par 0
+{
+
+ print(7/(1-1));
+}

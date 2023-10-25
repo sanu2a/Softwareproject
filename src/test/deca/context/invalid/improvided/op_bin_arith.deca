@@ -1,0 +1,11 @@
+{
+  // Description:
+  //   test de l'erreur de l'opération d'addition entre deux types incompabtibles à l'addition.
+  //
+  // Résultat:
+  //  Erreur Contextuelle
+  //  ligne 10: The arithmetic operation (Not Modulo) cannot be done due to the given types. 
+  int x = 2;
+  boolean z = true;
+  x = x + z;
+}

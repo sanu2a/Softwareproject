@@ -1,0 +1,8 @@
+// Le type donné est predefini dans l'environnement type
+// Le test doit marcher car les types declarés dont deja predefini appart (string) (float,int,boolean)
+
+{
+	int x;
+	float y;
+	boolean z;
+}

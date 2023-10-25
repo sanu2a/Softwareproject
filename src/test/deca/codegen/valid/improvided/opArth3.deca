@@ -1,0 +1,12 @@
+// Description:
+// test d operation arithmétique
+// Resultat:
+// 8.4
+{
+  float x = 4.2;
+  int y = 2;
+  float e = x*y;
+  print(e);
+ 
+}
+ //Resultat 8.4

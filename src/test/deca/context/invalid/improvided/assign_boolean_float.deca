@@ -1,0 +1,11 @@
+{
+   // Description:
+   //   test d'affectation d'un boolean à un float.
+   // 
+   // Resultats:
+   //   Erreur contextuelle
+   //   Ligne 10: The given types are incompatible. 
+   float x;
+   boolean y; 
+   x = y;
+}

@@ -1,0 +1,9 @@
+// Descriptioin:
+//	Affectation d'un float a un float 
+// Resultats:
+// 	ok
+{
+	float x = 1.5;
+	float z = 2.5;
+	float t = x + z;
+}

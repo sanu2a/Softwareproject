@@ -1,0 +1,22 @@
+// Description :
+//	declaration des champs dans une classe et acces a un champ public 
+// Resultats :
+// 	ok
+class Animal {
+	protected int nb_pattes;
+	protected float poids;
+	protected boolean est_carni;
+	}
+class Pangolin extends Animal {
+	int nb_pattes = 4;
+	// redeclaration du champ nb_pattes du classe mère : meme visibilité 
+	// redeclaration du champ a l'intérieur du claase mère : visibilté différente
+	protected boolean est_carni = false;
+}
+{
+	Pangolin pangolin = new Pangolin();
+	// Acces a un champ public 
+	pangolin.nb_pattes = 3;
+}
+	
+

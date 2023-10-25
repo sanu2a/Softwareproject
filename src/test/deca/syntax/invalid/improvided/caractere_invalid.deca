@@ -1,0 +1,7 @@
+// Description : 
+// 	utiliser un caractere invalide
+// Resultats:
+// 	Ligne 6 : "~" n'est pas un caractere valide
+{
+	int x = ~ 6;
+}

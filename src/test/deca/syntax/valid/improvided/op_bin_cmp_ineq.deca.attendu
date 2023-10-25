@@ -1,0 +1,42 @@
+`> [5, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [5, 0] Main
+      +> ListDeclVar [List with 3 elements]
+      |  []> [6, 5] DeclVar
+      |  ||  +> [6, 1] Identifier (int)
+      |  ||  +> [6, 5] Identifier (y)
+      |  ||  `> [6, 5] Initialization
+      |  ||     `> [6, 9] Int (3)
+      |  []> [7, 5] DeclVar
+      |  ||  +> [7, 1] Identifier (int)
+      |  ||  +> [7, 5] Identifier (z)
+      |  ||  `> [7, 5] Initialization
+      |  ||     `> [7, 9] Int (4)
+      |  []> [8, 9] DeclVar
+      |      +> [8, 1] Identifier (boolean)
+      |      +> [8, 9] Identifier (t)
+      |      `> [8, 9] Initialization
+      |         `> [8, 13] Greater
+      |            +> [8, 13] Identifier (y)
+      |            `> [8, 15] Identifier (z)
+      `> ListInst [List with 4 elements]
+         []> [9, 1] Assign
+         ||  +> [9, 1] Identifier (t)
+         ||  `> [9, 5] Lower
+         ||     +> [9, 5] Identifier (y)
+         ||     `> [9, 7] Identifier (z)
+         []> [10, 1] Assign
+         ||  +> [10, 1] Identifier (t)
+         ||  `> [10, 5] GreaterOrEqual
+         ||     +> [10, 5] Identifier (y)
+         ||     `> [10, 10] Identifier (z)
+         []> [11, 1] Assign
+         ||  +> [11, 1] Identifier (t)
+         ||  `> [11, 5] LowerOrEqual
+         ||     +> [11, 5] Identifier (y)
+         ||     `> [11, 10] Identifier (z)
+         []> [12, 1] Assign
+             +> [12, 1] Identifier (t)
+             `> [12, 5] Greater
+                +> [12, 5] Identifier (y)
+                `> [12, 9] Identifier (z)

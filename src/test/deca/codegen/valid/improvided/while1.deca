@@ -1,0 +1,16 @@
+ //Description:
+//   test de while avec boolean et not equals
+
+// Resultat:
+// 0
+// meme reference
+{
+ 
+ boolean x = true;
+ while (x){
+  x = false;
+}
+if (!x){
+	print(0);
+}
+}

@@ -1,0 +1,8 @@
+// Description: 
+// 	left value non valide
+// Resultats :
+// 	Ligne 6 : Left value invalid 
+{
+	int s  = 3;
+	-s = 3;
+}	

@@ -1,0 +1,13 @@
+// Description :
+//	test d'un simple if else. 	
+// Resultats :
+// 	ok
+{
+	int x = 3;
+	if (x == 3){
+		print(x);
+}
+	else {
+		print(x-1);	
+}
+}

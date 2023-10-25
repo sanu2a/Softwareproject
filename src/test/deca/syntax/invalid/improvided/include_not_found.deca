@@ -1,0 +1,8 @@
+// Description :
+// 	Inclure un fichier qui n'existe pas
+// Resultats :
+// 	Ligne 5 :
+#include "not_found.deca"
+{
+	print("taaada");
+} 

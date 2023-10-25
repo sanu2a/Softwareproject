@@ -1,0 +1,13 @@
+// Description:
+//   Appel d'une méthode dans le main sur aucune expression
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 12: The method is called in the main without an identifier. 
+
+class A{
+    int setX(int a, float z){}
+}
+{
+   setX(3,4.0);
+}

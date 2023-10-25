@@ -1,0 +1,12 @@
+// Description:
+//   Definition de deux méthodes avec des signatures différentes.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 11: The signature of the new method isn't the same as the past signature. 
+class A{
+    Object m(int x,int y){}
+}
+class B extends A{
+     A m(int x, float y){}
+}

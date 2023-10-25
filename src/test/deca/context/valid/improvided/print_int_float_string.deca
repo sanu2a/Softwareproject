@@ -1,0 +1,12 @@
+// Description :
+// 	test de print des types int, float, string
+// Resultats :
+// 	ok
+{
+	int x = 3;
+	float z = 4.5; 
+	println("Sana zen dl3alam");
+	print(3);
+	println(z);
+	
+}

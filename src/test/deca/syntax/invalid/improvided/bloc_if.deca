@@ -1,0 +1,9 @@
+// Description :
+// 	test bloc if 
+// Resultats :
+// 	Ligne 6 : syntax of condition
+{
+	if {
+	}
+} 
+

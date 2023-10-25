@@ -1,0 +1,10 @@
+// Description :
+//	Affectation d'un int a un autre int;
+// Resultats :
+//	ok
+
+{
+	int x = 3;
+	int z;
+	z = x;
+}

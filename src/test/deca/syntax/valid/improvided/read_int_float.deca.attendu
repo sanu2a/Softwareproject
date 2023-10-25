@@ -1,0 +1,15 @@
+`> [7, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [7, 0] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [8, 5] DeclVar
+      |  ||  +> [8, 1] Identifier (int)
+      |  ||  +> [8, 5] Identifier (x)
+      |  ||  `> [8, 5] Initialization
+      |  ||     `> [8, 9] ReadInt
+      |  []> [9, 7] DeclVar
+      |      +> [9, 1] Identifier (float)
+      |      +> [9, 7] Identifier (y)
+      |      `> [9, 7] Initialization
+      |         `> [9, 11] ReadFloat
+      `> ListInst [List with 0 elements]

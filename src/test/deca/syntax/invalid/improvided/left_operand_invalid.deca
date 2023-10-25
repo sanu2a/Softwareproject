@@ -1,0 +1,7 @@
+// Description : 
+// 	utiliser un left operand invalid (cas ou il n'existe pas )
+// Resultats: 
+// 	Ligne 6 : operande de gauche ( )invalide 
+{
+	int x = +  3;
+}

@@ -1,0 +1,12 @@
+// Description :
+// 	declaration des classes (heritage)
+// Resultats :
+// 	ok 
+// par default D extends object
+class D {
+	}
+// B et C qui etendent de A 
+class B extends D {
+	}
+class C extends D {
+}

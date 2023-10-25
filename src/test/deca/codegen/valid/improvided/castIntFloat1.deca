@@ -1,0 +1,16 @@
+
+// Description:
+// cast entre float et int
+// Resultat:
+// x = 3y = 8.96900e+00v =3.00000e+00
+ 
+
+
+
+{
+    int x = (int) (3.2);
+    float y = (float) (8.969);
+    float v = (float) (3);
+    println("x = ",x,"y = ",y,"v =",v);
+
+}

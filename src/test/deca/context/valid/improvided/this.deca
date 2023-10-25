@@ -1,0 +1,32 @@
+// Description :
+// 	Utilisation de this
+// Resultat :
+// 	ok
+
+class Restaurant {
+	protected int ID;
+	protected boolean est_meilleur;
+	boolean estMeilleur(){
+		return this.est_meilleur;
+	}
+	void setMeilleur(){
+		this.est_meilleur = true;
+	}	
+}
+class Restville{
+	Restaurant meilleur;
+	int nb_restaurant;
+}
+{
+	Restville Grenoble = new Restville();
+	Restaurant restGrenoble = new Restaurant();
+	restGrenoble.setMeilleur();
+	if (restGrenoble.estMeilleur()){
+		println("ok til now");	
+	}
+		
+	else {
+		println("ko");	
+	}
+	Grenoble.meilleur = restGrenoble;
+}

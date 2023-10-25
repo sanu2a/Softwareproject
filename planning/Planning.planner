@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<project name="Projet GL" company="Ensimag" manager="" phase="" project-start="20230103T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Working" description="A default working day"/>
+      <day-type id="1" name="Nonworking" description="A default non working day"/>
+      <day-type id="2" name="Use base" description="Use day from base calendar"/>
+    </day-types>
+    <calendar id="1" name="Default">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="1" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200"/>
+          <interval start="1300" end="1700"/>
+          <interval start="1900" end="2300"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days>
+        <day date="20230114" type="day-type" id="0"/>
+        <day date="20230101" type="day-type" id="0"/>
+        <day date="20230121" type="day-type" id="0"/>
+        <day date="20230108" type="day-type" id="0"/>
+        <day date="20230115" type="day-type" id="0"/>
+        <day date="20230128" type="day-type" id="0"/>
+        <day date="20230122" type="day-type" id="0"/>
+        <day date="20230129" type="day-type" id="0"/>
+        <day date="20230107" type="day-type" id="0"/>
+      </days>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Gestion de Projet" note="" work="57375" start="20230103T000000Z" end="20230105T230000Z" work-start="20230103T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="2" name="Charte contre la fraude" note="" work="21600" duration="43200" start="20230103T000000Z" end="20230103T230000Z" work-start="20230103T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230103T000000Z"/>
+      </task>
+      <task id="3" name="Charte d'&#xE9;quipe " note="" work="10575" duration="43200" start="20230103T000000Z" end="20230103T230000Z" work-start="20230103T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230103T000000Z"/>
+      </task>
+      <task id="4" name="Choix d'extentions" note="" work="7200" duration="86400" start="20230104T000000Z" end="20230105T230000Z" work-start="20230104T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230104T000000Z"/>
+      </task>
+      <task id="5" name="Planning" note="" work="18000" duration="64800" start="20230103T000000Z" end="20230104T150000Z" work-start="20230103T080000Z" percent-complete="30" priority="6" type="normal" scheduling="fixed-duration">
+        <constraint type="start-no-earlier-than" time="20230103T000000Z"/>
+      </task>
+    </task>
+    <task id="6" name="Preparation suivi" note="" work="25200" start="20230105T000000Z" end="20230123T230000Z" work-start="20230105T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="7" name="Suivi 1" note="" work="7200" duration="43200" start="20230105T000000Z" end="20230105T230000Z" work-start="20230105T080000Z" percent-complete="52" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230105T000000Z"/>
+      </task>
+      <task id="8" name="Suivi 2" note="" work="7200" duration="43200" start="20230111T000000Z" end="20230111T230000Z" work-start="20230111T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230111T000000Z"/>
+      </task>
+      <task id="9" name="Suivi 3" note="" work="10800" duration="43200" start="20230123T000000Z" end="20230123T230000Z" work-start="20230123T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230123T000000Z"/>
+      </task>
+    </task>
+    <task id="10" name="Etape A (Analyse lexicale et syntaxique)" note="" work="144000" start="20230104T000000Z" end="20230123T230000Z" work-start="20230104T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="11" name="Lexeur" note="" work="14400" duration="43200" start="20230104T000000Z" end="20230104T230000Z" work-start="20230104T080000Z" percent-complete="70" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230104T000000Z"/>
+      </task>
+      <task id="12" name="Parseur" note="" work="129600" start="20230106T000000Z" end="20230114T230000Z" work-start="20230106T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <task id="13" name="Parseur sans objet" note="" work="43200" duration="302400" start="20230106T000000Z" end="20230112T230000Z" work-start="20230106T080000Z" percent-complete="40" priority="0" type="normal" scheduling="fixed-duration">
+          <constraint type="start-no-earlier-than" time="20230106T000000Z"/>
+        </task>
+        <task id="14" name="Parseur avec objet" note="" work="86400" start="20230113T000000Z" end="20230114T230000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+          <constraint type="must-start-on" time="20230113T000000Z"/>
+          <predecessors>
+            <predecessor id="1" predecessor-id="13" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+      <task id="15" name="Tests" note="" work="0" duration="777600" start="20230106T000000Z" end="20230123T230000Z" work-start="20230106T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="start-no-earlier-than" time="20230106T000000Z"/>
+        <predecessors>
+          <predecessor id="1" predecessor-id="11" type="SS"/>
+          <predecessor id="1" predecessor-id="12" type="SS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="16" name="Etape B (Analyse contextuelle et v&#xE9;rification)" note="" work="169200" start="20230105T000000Z" end="20230123T230000Z" work-start="20230105T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="17" name="Liste des erreurs sans objet" note="" work="10800" duration="57600" start="20230105T000000Z" end="20230106T120000Z" work-start="20230105T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230105T000000Z"/>
+      </task>
+      <task id="18" name="Hello World " note="" work="7200" duration="43200" start="20230105T000000Z" end="20230105T230000Z" work-start="20230105T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230105T000000Z"/>
+      </task>
+      <task id="19" name="Sans objet " note="" work="151200" start="20230106T000000Z" end="20230109T150000Z" work-start="20230106T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+        <constraint type="must-start-on" time="20230106T000000Z"/>
+      </task>
+      <task id="20" name="Avec objet " note="" work="0" duration="302400" start="20230113T000000Z" end="20230119T230000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230113T000000Z"/>
+      </task>
+      <task id="21" name="Tests" note="" work="0" duration="648000" start="20230106T000000Z" end="20230120T230000Z" work-start="20230106T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="start-no-earlier-than" time="20230106T000000Z"/>
+        <predecessors>
+          <predecessor id="1" predecessor-id="19" type="SS"/>
+        </predecessors>
+      </task>
+      <task id="22" name="Finalisation de l'&#xE9;tape" note="" work="0" duration="172800" start="20230119T230000Z" end="20230123T230000Z" work-start="20230120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <predecessors>
+          <predecessor id="1" predecessor-id="20" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="23" name="Etape C (G&#xE9;n&#xE9;ration de code)" note="" work="3600" start="20230105T000000Z" end="20230123T230000Z" work-start="20230105T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="24" name="Hello World" note="" work="3600" duration="43200" start="20230105T000000Z" end="20230105T230000Z" work-start="20230105T080000Z" percent-complete="100" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230105T000000Z"/>
+      </task>
+      <task id="25" name="Sans objet" note="" work="0" duration="259200" start="20230107T000000Z" end="20230112T230000Z" work-start="20230107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230107T000000Z"/>
+      </task>
+      <task id="26" name="Avec objet" note="" work="0" duration="302400" start="20230112T230000Z" end="20230119T230000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <predecessors>
+          <predecessor id="1" predecessor-id="25" type="FS"/>
+        </predecessors>
+      </task>
+      <task id="27" name="Tests" note="" work="0" duration="648000" start="20230107T000000Z" end="20230121T230000Z" work-start="20230107T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <predecessors>
+          <predecessor id="1" predecessor-id="25" type="SS"/>
+        </predecessors>
+      </task>
+      <task id="28" name="Finalisation de l'&#xE9;tape" note="" work="0" duration="172800" start="20230119T230000Z" end="20230123T230000Z" work-start="20230120T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <predecessors>
+          <predecessor id="1" predecessor-id="26" type="FS"/>
+        </predecessors>
+      </task>
+    </task>
+    <task id="29" name="Extention" note="" work="43200" start="20230103T000000Z" end="20230103T230000Z" work-start="20230103T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work"/>
+    <task id="30" name="Documentation" note="" work="0" start="20230113T000000Z" end="20230122T230000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-work">
+      <task id="31" name="Manuel utilisateur" note="" work="0" duration="432000" start="20230113T000000Z" end="20230122T230000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230113T000000Z"/>
+      </task>
+      <task id="32" name="Documentation de conception" note="" work="0" duration="432000" start="20230113T000000Z" end="20230122T230000Z" work-start="20230113T080000Z" percent-complete="2" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230113T000000Z"/>
+      </task>
+      <task id="33" name="Documentation sur la validation" note="" work="0" duration="432000" start="20230113T000000Z" end="20230122T230000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230113T000000Z"/>
+      </task>
+      <task id="34" name="Documentation sur les extensions" note="" work="0" duration="432000" start="20230113T000000Z" end="20230122T230000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="must-start-on" time="20230113T000000Z"/>
+      </task>
+      <task id="35" name="Documentation sur l'impact &#xE9;nerg&#xE9;tique" note="" work="0" duration="432000" start="20230113T000000Z" end="20230122T230000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="start-no-earlier-than" time="20230113T000000Z"/>
+      </task>
+      <task id="36" name="Bilan sur la gestion d'&#xE9;quipe et de projet" note="" work="0" duration="432000" start="20230113T000000Z" end="20230122T230000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="normal" scheduling="fixed-duration">
+        <constraint type="start-no-earlier-than" time="20230113T000000Z"/>
+      </task>
+    </task>
+    <task id="37" name="Suivi 1" note="" work="0" start="20230106T000000Z" end="20230106T000000Z" work-start="20230106T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20230106T000000Z"/>
+    </task>
+    <task id="38" name="Suivi 2" note="" work="0" start="20230113T000000Z" end="20230113T000000Z" work-start="20230113T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20230113T000000Z"/>
+    </task>
+    <task id="39" name="Rendu Final" note="" work="0" start="20230123T000000Z" end="20230123T000000Z" work-start="20230123T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20230123T000000Z"/>
+    </task>
+    <task id="40" name="Rendu Bilan" note="" work="0" start="20230125T000000Z" end="20230125T000000Z" work-start="20230125T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20230125T000000Z"/>
+    </task>
+    <task id="41" name="Rendu documentation" note="" work="0" start="20230123T000000Z" end="20230123T000000Z" work-start="20230123T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20230123T000000Z"/>
+    </task>
+    <task id="42" name="Soutenance" note="" work="0" start="20230126T000000Z" end="20230126T000000Z" work-start="20230126T080000Z" percent-complete="0" priority="0" type="milestone" scheduling="fixed-work">
+      <constraint type="must-start-on" time="20230126T000000Z"/>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources>
+    <resource id="1" name="yassine" short-name="H" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="2" name="morad" short-name="L" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="3" name="akil" short-name="A" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="4" name="sana" short-name="S" type="1" units="0" email="" note="" std-rate="0"/>
+    <resource id="5" name="tifaf" short-name="T" type="1" units="0" email="" note="" std-rate="0"/>
+  </resources>
+  <allocations>
+    <allocation task-id="16" resource-id="1" units="100"/>
+    <allocation task-id="9" resource-id="1" units="5"/>
+    <allocation task-id="6" resource-id="1" units="100"/>
+    <allocation task-id="5" resource-id="1" units="6"/>
+    <allocation task-id="4" resource-id="1" units="2"/>
+    <allocation task-id="3" resource-id="1" units="5"/>
+    <allocation task-id="1" resource-id="1" units="100"/>
+    <allocation task-id="2" resource-id="1" units="10"/>
+    <allocation task-id="24" resource-id="2" units="4"/>
+    <allocation task-id="23" resource-id="2" units="100"/>
+    <allocation task-id="13" resource-id="2" units="5"/>
+    <allocation task-id="9" resource-id="2" units="5"/>
+    <allocation task-id="6" resource-id="2" units="100"/>
+    <allocation task-id="5" resource-id="2" units="6"/>
+    <allocation task-id="4" resource-id="2" units="2"/>
+    <allocation task-id="3" resource-id="2" units="5"/>
+    <allocation task-id="2" resource-id="2" units="10"/>
+    <allocation task-id="1" resource-id="2" units="100"/>
+    <allocation task-id="12" resource-id="2" units="100"/>
+    <allocation task-id="30" resource-id="2" units="100"/>
+    <allocation task-id="16" resource-id="3" units="100"/>
+    <allocation task-id="13" resource-id="3" units="5"/>
+    <allocation task-id="9" resource-id="3" units="5"/>
+    <allocation task-id="6" resource-id="3" units="100"/>
+    <allocation task-id="5" resource-id="3" units="6"/>
+    <allocation task-id="4" resource-id="3" units="2"/>
+    <allocation task-id="3" resource-id="3" units="5"/>
+    <allocation task-id="2" resource-id="3" units="10"/>
+    <allocation task-id="1" resource-id="3" units="100"/>
+    <allocation task-id="12" resource-id="3" units="100"/>
+    <allocation task-id="30" resource-id="3" units="100"/>
+    <allocation task-id="16" resource-id="4" units="100"/>
+    <allocation task-id="11" resource-id="4" units="17"/>
+    <allocation task-id="9" resource-id="4" units="5"/>
+    <allocation task-id="7" resource-id="4" units="8"/>
+    <allocation task-id="6" resource-id="4" units="100"/>
+    <allocation task-id="5" resource-id="4" units="6"/>
+    <allocation task-id="4" resource-id="4" units="2"/>
+    <allocation task-id="3" resource-id="4" units="5"/>
+    <allocation task-id="2" resource-id="4" units="10"/>
+    <allocation task-id="1" resource-id="4" units="100"/>
+    <allocation task-id="30" resource-id="4" units="100"/>
+    <allocation task-id="24" resource-id="5" units="4"/>
+    <allocation task-id="23" resource-id="5" units="100"/>
+    <allocation task-id="13" resource-id="5" units="5"/>
+    <allocation task-id="9" resource-id="5" units="5"/>
+    <allocation task-id="7" resource-id="5" units="8"/>
+    <allocation task-id="6" resource-id="5" units="100"/>
+    <allocation task-id="5" resource-id="5" units="6"/>
+    <allocation task-id="4" resource-id="5" units="2"/>
+    <allocation task-id="3" resource-id="5" units="5"/>
+    <allocation task-id="2" resource-id="5" units="10"/>
+    <allocation task-id="1" resource-id="5" units="100"/>
+    <allocation task-id="30" resource-id="5" units="100"/>
+    <allocation task-id="11" resource-id="5" units="17"/>
+  </allocations>
+</project>

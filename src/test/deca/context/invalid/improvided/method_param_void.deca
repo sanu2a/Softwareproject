@@ -1,0 +1,9 @@
+// Description:
+//   Un paramètre dans une méthode de type void
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 8: The type of a parameter can not be Void.
+class A{
+     int setX(void f, int j){}
+}

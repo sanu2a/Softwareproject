@@ -1,0 +1,13 @@
+// Description :
+// 	Tester les differentes operations arithmetique entre deux varibales.
+// Resultas :
+// 	ok
+
+{
+	float f = 3*4.4;
+	int x = 3*4*5*6;
+	int y = 4/2;
+	int z = x%y;
+	int t = x + y;
+	int u = z - y; 
+}

@@ -1,0 +1,29 @@
+// Description:
+// test de cast d'une classe a son super classe
+// Resultat:
+// je suis y = 58
+
+class A {
+ int x= 10;
+ void printL(){
+  println("je suis A x = ",x);
+}
+
+
+}
+
+
+class B extends A {
+ int y = 58;
+ void printL(){
+println("je suis B y = ",y);
+}
+
+
+}
+{
+
+B b = new B();
+A a = (A) (b);
+a.printL();
+}

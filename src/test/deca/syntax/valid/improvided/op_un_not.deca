@@ -1,0 +1,11 @@
+// Description:
+//	Test de not appliqué sur un boolean 
+// Resultats:
+//	ok
+{
+	int x = 3;
+	int z = 5;
+	boolean t;
+	1+1;
+	t = !(z==x);
+}

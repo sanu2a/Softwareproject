@@ -1,0 +1,8 @@
+// Description:
+//    Test d'un flaot assez grand proche de l'infini.
+// Résultats:
+//    Erreur Syntaxique
+//    Ligne 6: the given literal is too big
+{    
+     println(3.45e+87);
+}

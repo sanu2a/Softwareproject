@@ -1,0 +1,14 @@
+// Description:
+//   Redefinition d'une méthode avec un type de retour erroné.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 12: The return type of the new method isn't a subtype of the one already defined. 
+class A{
+     int m(int y, float z){
+     }
+}
+class B extends A{
+     float m(int x, float z){
+     }
+}

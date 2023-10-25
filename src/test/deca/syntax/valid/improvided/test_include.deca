@@ -1,0 +1,10 @@
+// Description:
+// 	test d'inclusion d'un fichier existant
+// Resultats:
+// 	ok
+
+#include "included1.deca"
+{
+	int x;
+
+}

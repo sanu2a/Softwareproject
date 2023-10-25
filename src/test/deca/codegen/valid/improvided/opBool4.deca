@@ -1,0 +1,19 @@
+// Description:
+// test de if avec les booleans, AND, OR
+// Resultat:
+// 1
+
+{
+ boolean x = true;
+ boolean y = false;
+ boolean z = true;
+ boolean e = true;
+ boolean r;
+ r = (x && y) || (z && e);
+if (r == true){
+   print(1);
+} else{
+   print("false");
+}
+}
+//Resultat 1

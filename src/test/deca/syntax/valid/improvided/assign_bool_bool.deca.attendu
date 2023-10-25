@@ -1,0 +1,17 @@
+`> [5, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [5, 0] Main
+      +> ListDeclVar [List with 2 elements]
+      |  []> [6, 9] DeclVar
+      |  ||  +> [6, 1] Identifier (boolean)
+      |  ||  +> [6, 9] Identifier (z)
+      |  ||  `> NoInitialization
+      |  []> [7, 9] DeclVar
+      |      +> [7, 1] Identifier (boolean)
+      |      +> [7, 9] Identifier (t)
+      |      `> [7, 9] Initialization
+      |         `> [7, 13] BooleanLiteral (true)
+      `> ListInst [List with 1 elements]
+         []> [8, 1] Assign
+             +> [8, 1] Identifier (z)
+             `> [8, 5] Identifier (t)

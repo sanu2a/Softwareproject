@@ -1,0 +1,9 @@
+// Description :
+// 	inclusion de plus d'un fichier
+// Resultats :
+// 	ok
+#include "included1.deca"
+#include "included2.deca"
+{
+	print("inclusion");
+}

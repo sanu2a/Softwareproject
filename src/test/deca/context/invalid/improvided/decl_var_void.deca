@@ -1,0 +1,9 @@
+{
+   // Description: 
+   // Test la déclaration d'une variable de type void.
+   //
+   // Resultats:
+   // Erreur Contextuelle
+   // Ligne 6: The given type is Void.
+   void x;
+}

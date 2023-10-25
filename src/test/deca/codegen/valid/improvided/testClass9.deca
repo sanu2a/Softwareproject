@@ -1,0 +1,42 @@
+// Description:
+//   test de extends et instanceof 
+
+// Resultat:
+//   je suis A
+//   je suis A
+//   je suis B
+//   je suis A
+//   je suis B
+//   je suis C
+
+class A {
+   void instan(Object o){
+ if (o instanceof A){
+   println("je suis A"); 
+} if (o instanceof B){
+   println("je suis B");
+} if (o instanceof C){
+ println("je suis C");
+} 
+
+}
+}
+class B extends A {
+
+
+}
+
+
+class C extends B {
+
+}
+ 
+
+{
+A a = new A();
+C c = new C();
+B b = new B();
+a.instan(a);
+a.instan(b);
+a.instan(c);
+}

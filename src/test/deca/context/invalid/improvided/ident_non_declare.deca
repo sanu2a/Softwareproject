@@ -1,0 +1,9 @@
+{
+   // Description:
+   //  test des défintions d'un identificateur
+   //
+   // Resultats:
+   //  Erreur contextuelle
+   //  Ligne 7: The given name does not correspond to any definition in EnvironementExp.
+   x;
+}

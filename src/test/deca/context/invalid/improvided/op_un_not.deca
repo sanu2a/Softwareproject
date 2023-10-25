@@ -1,0 +1,9 @@
+{
+   // Description:
+   //   Test du not unaire avec un type incompatible.
+   //
+   // Résultats:
+   //   Erreur Contextuelle
+   //   Ligne 7: The unary operation (Not) cannot be done due to the given type. 
+   boolean x = !3;
+}

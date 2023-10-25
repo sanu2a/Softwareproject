@@ -1,0 +1,23 @@
+// Description:
+// test de class et appel methode
+// Resultat:
+// nadiok
+class A {
+ protected int x;
+int getX(){
+
+}
+void setX(int x){
+ print("nadi");
+}
+}
+
+
+
+{
+A a =new A();
+a.setX(1);
+print("ok");
+
+
+}

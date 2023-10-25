@@ -1,0 +1,9 @@
+// Description:
+// test de Include qui contient la définitiond'une classe A
+// Resultat:
+//Je suis A née en 2002 
+#include "classA.decah"
+{
+	A a = new A();
+	a.printLN();
+}

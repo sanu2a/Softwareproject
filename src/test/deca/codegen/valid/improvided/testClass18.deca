@@ -1,0 +1,50 @@
+
+class Livre {
+
+    Couv couv;
+
+
+    void setCouv(Couv couv){
+
+        this.couv = couv;
+
+    }
+
+}
+
+
+class Couv {
+
+    Livre livre;
+
+    int feuille = 50;
+
+
+    Livre getLivre(Livre livre){
+
+        return new Livre();
+
+    }
+
+
+    Couv getCouv(Livre Livre){
+
+        return Livre.couv;
+
+    }
+
+}
+
+
+{
+
+    Couv couv = new Couv();
+
+    Livre livre = new Livre();
+
+    livre.setCouv(couv);
+
+    println(couv.getCouv(livre).feuille);
+
+
+}

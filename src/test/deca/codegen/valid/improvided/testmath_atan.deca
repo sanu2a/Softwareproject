@@ -1,0 +1,85 @@
+// Description :
+// 	Test de quelques valeurs de atan 
+// Resultats:
+//	ok 
+#include "Math.decah"
+ {
+    Math m = new Math();
+    println("-----------------------------");
+
+    println("atan(0.0)= ",m.atan(0.0));
+    printlnx(m.atan(0) );
+    printlnx("la valeur reelle: ",0.0);
+    println("-----------------------------");
+
+
+    println("atan(1)= ",m.atan(1));
+    printlnx(m.atan(1) );
+    printlnx("la valeur reelle:",0.78539816);
+    println("-----------------------------");
+
+
+    println("atan(-1)= ",m.atan(-1));
+    printlnx(m.atan(-1));
+    printlnx("la valeur reelle: ",-0.78539816);
+    println("-----------------------------");
+
+    println("atan(0.1)= ",m.atan(0.1));
+    printlnx(m.atan(0.1));
+    printlnx("la valeur reelle: ",0.09966865);
+    println("-----------------------------");
+
+    println("atan(0.3)= ",m.atan(0.3));
+    printlnx(m.atan(0.3));
+    printlnx("la valeur reelle: ",0.29145679);
+    println("-----------------------------");
+
+
+    println("atan(0.032)= ",m.atan(0.032));
+    printlnx(m.atan(0.032));
+    printlnx("la valeur reelle: ",0.03198908);
+    println("-----------------------------");
+
+
+    println("atan(0,005)= ",m.atan(0.005));
+    printlnx(m.atan(0.005));
+    printlnx("la valeur reelle: ",0.00499995833);
+    println("-----------------------------");
+   
+
+    println("atan(0.6)= ",m.atan(0.6));
+    printlnx(m.atan(0.6));
+    printlnx("la valeur reelle: ",0.5404195);
+    println("-----------------------------");
+    
+
+    println("atan(0.7)= ",m.atan(0.7));
+    printlnx(m.atan(0.7));
+    printlnx("la valeur reelle: ",0.61072596);
+    println("-----------------------------");
+
+
+    println("atan(20)= ",m.atan(20));
+    printlnx(m.atan(20));
+    printlnx("la valeur reelle: ",1.5208379);
+    println("-----------------------------");
+
+    println("atan(0,0001)= ",m.atan(0.0001));
+    printlnx(m.atan(0.0001));
+    printlnx("la valeur reelle: ",0.00009999997);//0x1.a36372p-14
+    println("-----------------------------");
+
+  
+
+
+    println("atan(5656)= ",m.atan(5656));
+    printlnx(m.atan(5656));
+    printlnx("la valeur reelle: ",1.57061952);//0x1.92141ep+0
+    println("-----------------------------");
+
+ println("atan(0.0000009)= ",m.atan(0.0000009));
+    printlnx(m.atan(0.0000009));
+    printlnx("la valeur reelle: ",0.0000009);//0x1.92141ep+0
+    println("-----------------------------");
+
+ }

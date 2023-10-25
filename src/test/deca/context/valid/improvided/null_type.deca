@@ -1,0 +1,41 @@
+//Description : 
+//	exemple d'utilisation d'un null literal 
+//Resultats :
+//	ok
+
+class Livre {
+	int nb_photo;
+	Image couverture;
+	void setCouverture(Image couverture){
+		this.couverture = couverture;
+	}
+	int getNbPhoto(){
+		return this.nb_photo;
+	}
+}
+class Image {
+        int largeur;
+        int hauteur;
+        boolean isBlacknWhite = false;
+	void setBlacknWhite(){
+                this.isBlacknWhite = true;
+        }
+}
+{
+        Livre livre = new Livre();
+        Image couverture = null;
+        couverture.setBlacknWhite();
+        livre.setCouverture(couverture);
+        if (livre.couverture.isBlacknWhite){
+                println("The couverture is black and white ok");
+        }
+        else {
+                println("ko");
+        }
+        if (couverture == null){
+                println("ok maybe");
+        }
+        else {
+                print("ko maybe");
+        }
+}

@@ -1,0 +1,15 @@
+// Description : 
+//	Affectation d'un boolean a un boolean
+// Resultats :
+//	ok
+{
+	boolean z;
+	boolean t = true;
+	z = t && (2>3) || (4>6) ;
+	if (z == false){
+		print("Resultat ok");
+}
+	else {
+		print("Resultat ko");
+}
+}

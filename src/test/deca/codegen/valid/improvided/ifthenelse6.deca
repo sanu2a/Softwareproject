@@ -1,0 +1,15 @@
+// Description:
+// test de if avec boolean et not et OR
+// Resultat
+// ok
+{
+	if (!(true || false)){
+		println("ko");}
+	else {
+		println("ok");	
+	}
+	if (6<=5){
+		println("ko");
+	}	
+}
+

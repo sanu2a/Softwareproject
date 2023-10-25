@@ -1,0 +1,21 @@
+// Description:
+// test de ASM
+// Resultat:
+// okok
+class Livre {
+
+    void wstr_test() asm("WSTR \"ok\"
+
+                    WSTR \"ok\"
+RTS ");
+
+}
+
+
+{
+
+    Livre l = new Livre();
+
+    l.wstr_test();
+
+}

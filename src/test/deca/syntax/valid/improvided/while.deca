@@ -1,0 +1,9 @@
+// Description :
+// 	test du condition while
+// Resultats :
+// 	ok
+{
+	while(true){
+		println("sana");
+	}
+}

@@ -1,0 +1,13 @@
+// Description:
+// test d operation arithmétique
+// Resultat:
+// 19
+{
+  int x,y,z;
+  int e;
+	x = 1;y=5;z=9;
+  e = x*y + y/x + z;
+  print(e);
+}
+
+//Resultat 19

@@ -1,0 +1,10 @@
+// Description:
+// test de print
+// Resultat:
+// 10
+
+{ 
+ int x = 4;
+ int t = 6;
+ println(x+t);
+}

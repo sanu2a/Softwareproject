@@ -1,0 +1,8 @@
+// Description:
+//   L'integer donné est trop grand
+// Résultats:
+//   Erreur syntaxique
+//   Ligne 6: The given literal is too big
+{
+     println(10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000);
+}

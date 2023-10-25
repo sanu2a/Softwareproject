@@ -1,0 +1,11 @@
+{
+  // Description:
+  //  Test de la comparaison entre deux types invalides
+  //
+  // Résultats:
+  //  Erreur Contextuelle
+  //  Ligne 8: The given comparison operator cannot be done between the given types. 
+  int x = 3;
+  boolean z = true;
+  boolean y = z > x;
+}

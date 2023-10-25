@@ -1,0 +1,18 @@
+// Description:
+//   test de instanceof
+
+// Resultat:
+// OK
+
+class eleve {}
+
+{
+if (new eleve() instanceof Object) {
+   println("OK");
+} else {
+  println("Wrong");
+}
+
+}
+
+

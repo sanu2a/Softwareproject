@@ -1,0 +1,7 @@
+//Description :
+// 	operation sur le débordement des flottants
+// Resultats :
+// 	Ligne 6 : Débordement arithmétique 
+{
+float f = 0x1.2p127 + 0x1.2p127;
+}

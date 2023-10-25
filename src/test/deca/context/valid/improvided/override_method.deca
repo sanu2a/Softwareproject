@@ -1,0 +1,47 @@
+// Description :
+// 	override des methodes ù
+// Resultats:
+// 	ok 
+class Animal {
+    float poids;
+    int nb_pattes;
+    void crier(){
+    }
+}
+class Chat extends Animal{
+    void crier(){
+        println("Miaooooooooooo");
+    }
+}
+class Chien extends Animal{
+    void crier() {
+        println("Hawhaaaw");
+    }
+}
+class Ane extends Animal {
+    void crier(){
+        println("Nihaaaahw");
+    }
+}
+class Vache extends Animal {
+    void crier(){
+        println("Moooooooooo");
+    }
+}
+
+{
+    Animal animal = new Animal();
+    Chat chat = new Chat();
+    Vache vache = new Vache();
+    Chien chien = new Chien();
+    Ane ane = new Ane();
+    chien.crier();
+    chat.crier();
+    ane.crier();
+    vache.crier();
+    animal.crier();
+    /*Hawhaaaw
+    Miaooooooooooo
+    Nihaaaahw
+    Moooooooooo*/
+}

@@ -1,0 +1,7 @@
+// Description :
+// 	utilisation d'une lettre avec accent
+// Resultats : 	
+// 	Ligne 6 : "é" caractere invalide
+{
+	int é = 3;
+}

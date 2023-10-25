@@ -1,0 +1,26 @@
+// Description :
+// 	test de selection 
+// Resultats : 
+// 	ok 
+class Robot {
+	Case case;
+	float vitesse;	
+}
+class Case {
+	int largeur;
+	int hauteur;
+	Carte carte;
+	boolean contient_incendie;
+	}
+class Carte {
+	int num;
+	int nb_case;
+	}
+
+{
+	Carte carte = new Carte();
+	Case case = new Case();
+	Robot robot = new Robot();
+	robot.case.contient_incendie = true;
+	robot.case.carte = carte;
+}

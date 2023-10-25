@@ -1,0 +1,46 @@
+`> [5, 0] Program
+   +> ListDeclClass [List with 0 elements]
+   `> [5, 0] Main
+      +> ListDeclVar [List with 4 elements]
+      |  []> [6, 5] DeclVar
+      |  ||  +> [6, 1] Identifier (int)
+      |  ||  +> [6, 5] Identifier (x)
+      |  ||  `> [6, 5] Initialization
+      |  ||     `> [6, 9] Int (3)
+      |  []> [7, 5] DeclVar
+      |  ||  +> [7, 1] Identifier (int)
+      |  ||  +> [7, 5] Identifier (z)
+      |  ||  `> [7, 5] Initialization
+      |  ||     `> [7, 9] Int (4)
+      |  []> [8, 9] DeclVar
+      |  ||  +> [8, 1] Identifier (boolean)
+      |  ||  +> [8, 9] Identifier (t)
+      |  ||  `> [8, 9] Initialization
+      |  ||     `> [8, 13] Equals
+      |  ||        +> [8, 13] Identifier (x)
+      |  ||        `> [8, 16] Identifier (z)
+      |  []> [9, 9] DeclVar
+      |      +> [9, 1] Identifier (boolean)
+      |      +> [9, 9] Identifier (y)
+      |      `> NoInitialization
+      `> ListInst [List with 4 elements]
+         []> [10, 1] Assign
+         ||  +> [10, 1] Identifier (t)
+         ||  `> [10, 5] Equals
+         ||     +> [10, 5] Identifier (x)
+         ||     `> [10, 8] Identifier (z)
+         []> [11, 1] Assign
+         ||  +> [11, 1] Identifier (t)
+         ||  `> [11, 5] NotEquals
+         ||     +> [11, 5] Identifier (x)
+         ||     `> [11, 8] Identifier (z)
+         []> [12, 1] Assign
+         ||  +> [12, 1] Identifier (y)
+         ||  `> [12, 5] Equals
+         ||     +> [12, 5] Identifier (t)
+         ||     `> [12, 10] BooleanLiteral (false)
+         []> [13, 1] Assign
+             +> [13, 1] Identifier (y)
+             `> [13, 5] NotEquals
+                +> [13, 5] Identifier (t)
+                `> [13, 10] BooleanLiteral (false)

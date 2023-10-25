@@ -1,0 +1,12 @@
+// Description :
+//	Test des operateurs binaires (And et Or)
+// Resultats :
+// 	ok
+
+{
+	boolean x = true;
+	boolean t = false;
+	boolean z = x && t;
+	boolean r = x || z;
+
+} 

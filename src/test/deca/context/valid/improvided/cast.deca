@@ -1,0 +1,16 @@
+// Description :
+// 	test cast
+// Resultats :
+// 	ok 
+class Jeu {}
+class Foot extends Jeu {}
+class Hand extends Jeu {}
+{
+	Jeu jeu;
+	Foot foot;
+	Hand hand;
+	Object o;
+	hand = (Hand) (jeu);
+	o = (Object) (hand);
+	foot = (Foot) (o); 
+}

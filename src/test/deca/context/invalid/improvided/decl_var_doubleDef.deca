@@ -1,0 +1,10 @@
+{
+   // Description : 
+   //  Test d'une double définition.
+   //
+   // Résultats:
+   // Erreur Contextuelle
+   // Ligne 7: Double definition of your symbol. 
+   int x;
+   int x;
+}

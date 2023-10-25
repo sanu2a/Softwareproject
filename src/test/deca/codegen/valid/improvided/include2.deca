@@ -1,0 +1,6 @@
+// Description:
+// test de include ,contient des variables globales
+// Resultat:
+//x=9
+
+#include "varglobal.decah"

@@ -1,0 +1,14 @@
+{
+    //on veut verifier qu'il s'arrete bien a la premiere erreur
+ 
+ 
+    int x;
+    float y;
+ 
+    //1ere erreur de type non predefine, doit donner une erreur (0.2)
+    akil x;
+    
+    //2eme erreur affect non compatible 
+    x=y;
+
+}

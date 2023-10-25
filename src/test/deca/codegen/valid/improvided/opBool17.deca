@@ -1,0 +1,19 @@
+// Description:
+// test de if avec les booleans et not equals,AND,OR
+// Resultat:
+// good
+
+{
+    boolean x = true, y=false;
+    boolean  z = false;
+
+if ((x && !z)|| z ) {
+    if (y && !true) {
+           print("mal");
+        } else {
+            print("good");
+        }
+    } else {
+        print("mal");
+    }
+}

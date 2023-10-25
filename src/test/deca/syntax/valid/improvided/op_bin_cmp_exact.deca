@@ -1,0 +1,15 @@
+// Description :
+// 	Test des operations de comparaison ( egal et different de )
+// Resultats:
+//	ok 
+{
+	int x = 3;
+	int z = 4;
+	boolean t = x==z;
+	boolean y;
+	t = x==z;
+	t = x!=z; 
+	y = t == false;
+	y = t != false;
+
+}

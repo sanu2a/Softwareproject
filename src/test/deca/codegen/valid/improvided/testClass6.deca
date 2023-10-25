@@ -1,0 +1,27 @@
+// Description:
+// test de class, methode appelle une autre methode, appel methode passé en paramétre
+// Resultat:
+// 35
+
+class A {
+ int x=3;
+ int e = 6;
+int gete(){
+ return e;
+}
+int calculComplique(int h){
+ return (this.x - h%2)+mult(gete() + h);
+}
+int mult(int a){
+
+ return a*x;
+}
+}
+
+{
+
+A a = new A();
+int y = a.calculComplique(a.x + 2);
+println(y);
+
+}

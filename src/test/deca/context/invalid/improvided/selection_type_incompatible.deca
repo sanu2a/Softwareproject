@@ -1,0 +1,16 @@
+// Description:
+//   test de l'affectation d'un float à un int sans cast
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 15: The given type isn't a class.
+class A{
+     int a;
+     int getX(int z, int y){
+         print(3);
+     }
+}
+{
+     int a;
+     a.z;
+}

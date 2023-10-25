@@ -1,0 +1,18 @@
+// Description:
+//   Cast entre deux classes indépendantes.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 10: The demanded Cast is illegal due to the given types. 
+
+class A{
+   protected int a;
+   float z;
+}
+class B {
+   Object o;
+}
+{
+   A a;
+   B b = (B) (a);
+}

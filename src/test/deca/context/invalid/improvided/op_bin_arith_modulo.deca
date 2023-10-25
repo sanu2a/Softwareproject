@@ -1,0 +1,9 @@
+{
+   // Description:
+   //  test de l'opération arithmétique modulo disfonctionnelle vu les types données.
+   //
+   // Résultats:
+   //  Erreur Contextuelle
+   //  Ligne 7 : The arithmetic operation modulo cannot be done due to the given types.
+   int z = 2 % 3.4;
+}

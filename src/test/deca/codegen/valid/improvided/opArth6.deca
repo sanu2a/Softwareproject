@@ -1,0 +1,11 @@
+// Description:
+// test d operation arithmétique
+// Resultat:
+// 343
+{
+ 
+int x = 5;
+int y = 10;
+println((x*y)/x + (x*x)%2 + (3*9*2*6)/(2*2) + x*y*x+10%3);
+
+}

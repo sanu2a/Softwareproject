@@ -1,0 +1,15 @@
+// Description:
+//   Appel d'une méthode sur un type hors les classes.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 14: You cannot apply the given method to a such type. 
+class A{
+   protected int x;
+   int getX(){
+   }
+}
+{
+   float z;
+   z.getX();
+}

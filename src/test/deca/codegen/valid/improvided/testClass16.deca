@@ -1,0 +1,20 @@
+// Description:
+//   test de class, comparaison de reference
+
+// Resultat:
+// meme reference
+class A{
+
+}
+
+{
+A a = new A();
+A aa = new A();
+aa = a;
+if(a!=aa){
+	println("pas de meme reference");
+}
+else{
+	println("meme reference");
+}
+}

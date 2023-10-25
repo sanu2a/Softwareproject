@@ -1,0 +1,31 @@
+// Description:
+//   test de class, meme nom de methode défini dans plusieurs classe
+// Resultat:
+//103
+class plus1{
+int incremente(int i){
+   return i+1;
+}
+}
+
+class plus2{
+int incremente(plus1 p, int i){
+     return p.incremente(i)+1;
+}
+}
+
+
+class plus3{
+int incremente(plus1 p1, plus2 p2, int i){
+	return p2.incremente(p1,i)+1;
+}
+}
+
+{
+
+plus1 p1 = new plus1();
+plus2 p2 = new plus2();
+plus3 p3 = new plus3();
+println(p3.incremente(p1, p2, 100));
+}
+

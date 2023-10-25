@@ -1,0 +1,8 @@
+// Description :
+// 	test quote a l'interieur d'un string
+// Resultats :
+// 	Ligne 7 :
+
+{
+	println("testwtst""testhhbef");
+}

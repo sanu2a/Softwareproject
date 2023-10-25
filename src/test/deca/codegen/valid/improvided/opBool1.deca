@@ -1,0 +1,19 @@
+// Description:
+// test de if avec les booleans et equals
+// Resultat:
+// 1
+
+{
+boolean x = true;
+boolean y = false;
+boolean z;
+z  = (y || x )|| y;
+ 
+if (z == true){
+   print(1);
+} else {
+   print("erreur");
+}
+}
+
+//Resultat 1

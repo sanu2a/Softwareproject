@@ -1,0 +1,19 @@
+// Description:
+//   test de class, selection et assign
+
+// Resultat:
+// -3.75000e-01
+
+class A {
+    float x = 9;
+}
+
+class B {
+    float y;
+}
+
+{
+    float r; 
+    r =  (new A().x = 5)*(new B().y = -3.3) / 22;
+    print(r/2);
+}

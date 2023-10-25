@@ -1,0 +1,32 @@
+// Description:
+// test de class qui prend une classe comme champs
+// Resultat:
+//x = 7
+ 
+class A {
+  int x;
+  B b;
+  void m(int tran){
+  x = tran + b.c;
+
+}
+void set(B b){
+ this.b = b;
+
+}
+
+}
+
+class B {
+int c =5;
+}
+
+{
+ B objetB = new B();
+ A objetA = new A();
+ objetA.set(objetB);
+ objetA.m(2);
+ println("x = ",objetA.x);
+ 
+
+}

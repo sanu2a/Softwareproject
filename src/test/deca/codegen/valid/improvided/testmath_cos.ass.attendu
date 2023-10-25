@@ -1,0 +1,35 @@
+cos(-2pi)= 1.00000e+00
+0x1p+0
+valeur qu'il faut trouver calculé par java:0x1p+0
+-----------------------
+cos(2pi)= 1.00000e+00
+0x1p+0
+valeur qu'il faut trouver calculé par java:0x1p+0
+-----------------------
+cos(pi)= -1.00000e+00
+-0x1p+0
+valeur qu'il faut trouver calculé par java:-0x1p+0
+-----------------------
+cos(0.0)= 1.00000e+00
+0x1p+0
+valeur qu'il faut trouver calculé par java:0x1p+0
+-----------------------
+cos(pi/4)= 7.07107e-01
+0x1.6a09e6p-1
+valeur qu'il faut trouver calculé par java:0x1.6a09e6p-1
+-----------------------
+cos(pi/8)= 9.23880e-01
+0x1.d906bcp-1
+valeur qu'il faut trouver calculé par java:0x1.d906bcp-1
+-----------------------
+cos(pi/12)= 9.65926e-01
+0x1.ee8dd4p-1
+valeur qu'il faut trouver calculé par java:0x1.ee8dd4p-1
+-----------------------
+cos(pi/16)= 9.80785e-01
+0x1.f6297ep-1
+valeur qu'il faut trouver calculé par java:0x1.f6297cp-1
+cos(20)= 4.08083e-01
+0x1.a1e084p-2
+valeur qu'il faut trouver calculé par java:0x1.a1e044p-2
+-----------------------

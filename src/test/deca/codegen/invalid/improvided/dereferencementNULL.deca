@@ -1,0 +1,17 @@
+class eleve {
+int ID;
+Math noteMath;
+void setID(int a){
+  ID = a;
+}
+
+}
+
+class Math {
+ int note;
+
+}
+{
+eleve m = null;
+int  h = m.ID;
+}

@@ -1,0 +1,9 @@
+// Description :
+// 	Bloc not closed
+// Resultats :
+//	Ligne 10 :  
+{
+	int x;
+	float y;
+	print("hello");
+

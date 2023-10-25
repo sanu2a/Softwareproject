@@ -1,0 +1,9 @@
+{
+   // Description:
+   //   Initialization d'un int avec un float sans Cast.
+   //
+   // Resultats:
+   //  Erreur Contextuelle
+   //  Ligne 8: You cannot assign a float to an int without cast.  
+   int x = 3.3;
+}

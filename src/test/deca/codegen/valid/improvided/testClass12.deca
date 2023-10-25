@@ -1,0 +1,19 @@
+// Description:
+//   test de class 
+
+// Resultat:
+// 2.50000e+02
+
+class batata {
+    int prix = 10;
+    float getPrix() {
+        return prix;
+    }
+}
+
+{   
+    int poids = 25;
+    batata pannier = new batata(); 
+   float x = poids*pannier.getPrix();
+    println(x);
+}

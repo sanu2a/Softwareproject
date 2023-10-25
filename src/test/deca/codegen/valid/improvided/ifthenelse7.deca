@@ -1,0 +1,13 @@
+// Description:
+// test de if avec triple not et OR
+// Resultat:
+// OK
+{
+   
+
+    if (!!!(true || !false)) {
+        print("KO");
+    }else {
+     print("OK");
+}
+}

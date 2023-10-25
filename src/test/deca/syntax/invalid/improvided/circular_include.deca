@@ -1,0 +1,8 @@
+// Description :
+// 	Inclusion du fichier lui meme
+// Resultats :
+// 	Ligne 5
+#include "circular_include.deca"
+{
+	print("Boucle");
+}

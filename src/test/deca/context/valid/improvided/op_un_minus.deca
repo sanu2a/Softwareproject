@@ -1,0 +1,7 @@
+// Description:  
+//	test du moins unaire
+//Resultats:
+//	ok
+{
+	int x = -2;
+}

@@ -1,0 +1,46 @@
+// Description: 
+// 	Override de la methode equals dans des classes 
+// Resultats : 
+// 	ok
+
+
+class Hotel {
+    int codePostale;
+    int nb_chambre;
+    boolean centre_ville;
+   // @Override
+    boolean equals(Object obj){
+            Hotel o = (Hotel) (obj);
+                if ((o.codePostale == this.codePostale) && (o.centre_ville == this.centre_ville) && (o.nb_chambre == this.nb_chambre)){
+                        return true;
+                }
+            
+            return false;
+        }
+}
+
+{
+        Hotel ibis = new Hotel();
+        Hotel Mogador = new Hotel();
+        Hotel Mogador2 = new Hotel();
+        ibis.codePostale = 38400;
+        ibis.nb_chambre = 120;
+        ibis.centre_ville = true;
+        Mogador.codePostale = 38400;
+        Mogador.nb_chambre = 220;
+        Mogador.centre_ville = false;
+        Mogador2.codePostale = 38400;
+        Mogador2.nb_chambre = 220;
+        Mogador2.centre_ville = false;
+        if (ibis.equals(Mogador)){
+            println("ko equals ne marche pas bien");
+        }
+        else{
+            if (Mogador.equals(Mogador2)){
+                println("ok hotels kif kif");
+            }
+            else {
+                println("ko revoir equals");
+                }
+        }
+} 

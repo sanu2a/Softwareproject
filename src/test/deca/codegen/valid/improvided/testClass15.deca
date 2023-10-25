@@ -1,0 +1,27 @@
+// Description:
+//   test de class, instance null
+
+// Resultat:
+//a nul
+//aa non nul
+
+class A{
+
+}
+
+{
+A a = new A();
+A aa = new A();
+a = null;
+if(a==null){
+     println("a nul");
+}else{
+    println("a non nul");
+}
+if(aa==null){
+     println("aa nul");
+}else{
+    println("aa non nul");
+}
+
+}

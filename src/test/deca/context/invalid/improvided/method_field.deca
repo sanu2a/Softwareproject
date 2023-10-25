@@ -1,0 +1,10 @@
+// Description:
+//   Definition d'une methode et d'un field dans une même classe avec le même nom.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 9: You cannot assign a float to an int without cast.
+class A{
+    protected int a;
+    int a (int a,float z){}
+}

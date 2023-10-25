@@ -1,0 +1,7 @@
+{
+    float a;
+    int b,c;
+
+    a=b;
+    a=c;
+}

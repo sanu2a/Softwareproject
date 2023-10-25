@@ -1,0 +1,10 @@
+// Description:
+//   Initialiser un field de type void.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 9: The field type can't be void.
+
+class A{
+     void x;
+}

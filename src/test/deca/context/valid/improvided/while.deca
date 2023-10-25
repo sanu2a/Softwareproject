@@ -1,0 +1,11 @@
+// Description :
+// 	test du condition while
+// Resultats :
+// 	ok
+{
+	int i = 3;
+	while(i!=0){
+		i = i-1;
+		println("sana");
+	}
+}

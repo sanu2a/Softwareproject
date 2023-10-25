@@ -1,0 +1,17 @@
+// Description :
+// 	test des differents types des casts
+// 	float  vers int
+//	int vers float 
+// 	deux variables de meme types	
+// Resultats :
+// 	ok
+{
+	int x = (int) (3.0);
+	float y = (float) (3);
+	float t = (float) (3.0);
+	int i = (int) (3);
+	boolean k = (boolean) (true);
+	boolean z = (boolean) (k);
+ 	
+
+}

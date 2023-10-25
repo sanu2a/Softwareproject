@@ -1,0 +1,15 @@
+// Description:
+//   Declaration d'un field avec un identifiant déjà utilisé dans la superClass par une méthode.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 13: The given attribute has already been declared and with a different type than Field.
+
+class A {
+   int x(){}
+}
+
+class B extends A{
+    float x;
+}
+

@@ -1,0 +1,54 @@
+// Description:
+// test de class et appel methode
+// Resultat:
+//ID : 8985 rattrapage
+
+class eleve {
+protected int ID;
+int  noteMath;
+int  notePhysique;
+
+void set(int ID, int noteMath, int notePhysique){
+  this.ID =ID;
+  this.noteMath = noteMath;
+  this.notePhysique = notePhysique;
+
+} 
+
+int getID(){
+return ID;
+} 
+
+boolean validation(){
+float moyenne = (noteMath + notePhysique)/2;
+ if (noteMath >5 && notePhysique >5){
+   if (moyenne >=10){
+   return true;
+   } else {
+
+     return false;
+   }
+
+
+ } else {
+   return false;
+}
+
+}
+void jury(){
+ if (this.validation()){
+  println(" validé");
+} else {
+   println(" rattrapage");
+}
+
+}
+
+}
+{
+eleve Etu = new eleve();
+Etu.set(8985,5,20);
+print("ID : ",Etu.getID());
+Etu.jury();
+
+}

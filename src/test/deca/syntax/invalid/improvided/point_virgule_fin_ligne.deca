@@ -1,0 +1,8 @@
+// Description :
+// 	test une ligne qui se termine pas par ';'
+// Resultats :
+// 	Ligne 6 : missing ; at end of line 
+{
+	int x
+
+}

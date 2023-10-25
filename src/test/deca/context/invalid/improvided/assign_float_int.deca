@@ -1,0 +1,10 @@
+{
+   // Description:
+   //   test de l'affectation d'un float à un int sans cast
+   //
+   // Résultats:
+   //   Erreur Contextuelle
+   //   Ligne 9: You cannot assign a float to an int without cast.
+   int x;
+   x = 3.3;
+}

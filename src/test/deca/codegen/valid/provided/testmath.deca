@@ -1,0 +1,193 @@
+// Description:
+//    Utilisation simple de la classe Math
+//
+// Resultats:
+//    cos(0.0) = 1.00000e+00
+//
+// Historique:
+//    cree le 01/01/2023
+
+// Un exemple de programme Deca utilisant la classe Math
+
+#include "Math.decah"
+{
+
+   // float pi_float_value = 3.1415927;
+    
+    Math m = new Math();
+
+    float step=m.puiss(10,-1);
+    int i=0;
+    float vfinal=10.0;
+    float vinit=0.0;
+    float value=vinit;
+    int nb=0;
+
+    printx(m.cos(m.pi_float_value/4));
+    println();
+    printx(0.70710678);
+    println();
+    println("cos(pi/4)= ",m.cos(m.pi_float_value/4));
+
+    printx(m.cos(m.pi_float_value/8));
+    println();
+    printx(0.92387953);
+    println();
+    println("cos(pi/8)= ",m.cos(m.pi_float_value/8));
+
+    printx(m.cos(m.pi_float_value/12));
+    println();
+    printx(0.96592582);
+    println();
+    println("cos(pi/12)= ",m.cos(m.pi_float_value/12));
+
+    printx(m.cos(m.pi_float_value/16));
+    println();
+    printx(0.98078528);
+    println();
+    println("cos(pi/16)= ",m.cos(m.pi_float_value/16));
+
+println("-----------------------------");
+    println("sin(pi/4)= ",m.sin(m.pi_float_value/4));
+    printx(m.sin(m.pi_float_value/4));
+    println();
+    printx(0.70710678);
+    println();
+
+    println("sin(pi/8)= ",m.sin(m.pi_float_value/8));
+    printx(m.sin(m.pi_float_value/8));
+    println();
+    printx(0.38268343);
+    println();
+
+    println("sin(pi/12)= ",m.sin(m.pi_float_value/12));
+    printx(m.sin(m.pi_float_value/12));
+    println();
+    printx(0.258819);
+    println();
+
+    println("sin(pi/16)= ",m.sin(m.pi_float_value/16));
+    printx(m.sin(m.pi_float_value/16));
+    println();
+    printx(0.19509032);
+    println();
+
+println("-----------------------------");
+
+    println("asin()= ",m.asin(0.0));
+    printx(m.asin(0) );
+    println();
+    printx(0.0);
+    println();
+    
+    
+
+    println("asin(0.5)= ",m.asin(0.5));
+    printx(m.asin(0.5) );
+    println();
+    printx(0.52359877);
+    println();
+
+    println("asin(0.7)= ",m.asin(0.7));
+    printx(m.asin(0.7));
+    println();
+    printx(0.77539749);
+    println();
+
+    println("asin(0.1)= ",m.asin(0.1));
+    printx(m.asin(0.1));
+    println();
+    printx(0.10016742);
+    println();
+
+    println("asin(0.3)= ",m.asin(0.3));
+    printx(m.asin(0.3));
+    println();
+    printx(0.30469265);
+    println();
+
+    println("asin(1)= ",m.asin(1.0));
+    printx(m.asin(1.0));
+    println();
+    printx(1.5707963);
+    println();
+
+
+
+
+println("-----------------------------");
+
+    println("atan(0.0)= ",m.atan(0.0));
+    printx(m.atan(0) );
+    println();
+    printx(0.0);
+    println();
+    
+
+    println("atan(1)= ",m.atan(1));
+    printx(m.atan(1) );
+    println();
+    printx(0.78539816);
+    println();
+
+    println("atan(-1)= ",m.atan(-1));
+    printx(m.atan(-1));
+    println();
+    printx(-0.78539816);
+    println();
+
+    println("atan(0.1)= ",m.atan(0.1));
+    printx(m.atan(0.1));
+    println();
+    printx(0.09966865);
+    println();
+
+    println("atan(0.3)= ",m.atan(0.3));
+    printx(m.atan(0.3));
+    println();
+    printx(0.29145679);
+    println();
+
+    println("atan(0.032)= ",m.atan(0.032));
+    printx(m.atan(0.032));
+    println();
+    printx(0.03198908);
+    println();
+
+    println("atan(0,005)= ",m.atan(0.005));
+    printx(m.atan(0.005));
+    println();
+    printx(0.00499995);
+    println();
+
+    println("atan(0.6)= ",m.atan(0.6));
+    printx(m.atan(0.6));
+    println();
+    printx(0.5404195);
+    println();
+
+    println("atan(0.7)= ",m.atan(0.7));
+    printx(m.atan(0.7));
+    println();
+    printx(0.61072596);
+    println();
+
+
+    println("atan(20)= ",m.atan(20));
+    printx(m.atan(20));
+    println();
+    printx(1.5208379);
+    println();
+
+    println("-----------------------------");
+    while(value<=vfinal){
+        printx(m.atan(value));
+        print(" , ",value);
+        println();
+        value=value+step;
+        nb=nb+1;
+    }
+    println();
+    println("le nbre d'echantillon est:", nb);
+
+}

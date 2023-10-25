@@ -1,0 +1,15 @@
+// Description:
+//   Definition d'une méthode avec le nom d'un field.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 12: The given name of the method is already used for a field.
+
+class A{
+     protected int a;
+}
+class B extends A{
+     int a(int x,float z)
+     {}
+}
+ 

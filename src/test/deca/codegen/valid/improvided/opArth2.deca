@@ -1,0 +1,14 @@
+// Description:
+// test d operation arithmétique
+// Resultat:
+// 0.00
+
+{
+
+  int x = 6;
+  int y = 2;
+  float z = x % y;
+  print(z);
+}
+
+//Resultat 0.00

@@ -1,0 +1,10 @@
+// Description:
+// test convfloat
+// Resultat:
+// 2.0
+{
+ int r = 2; 
+ float x = r;
+ print(x);
+
+}

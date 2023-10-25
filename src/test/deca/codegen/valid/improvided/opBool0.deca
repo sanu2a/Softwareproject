@@ -1,0 +1,21 @@
+// Description:
+// test de if avec les booleans et assign
+// Resultat:
+// 0
+{
+
+boolean x = true;
+
+boolean y;
+y = false;
+
+x = y;
+
+if (x == false){
+   print(0);
+} else{
+   print("error");
+}
+
+
+}

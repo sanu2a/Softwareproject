@@ -1,0 +1,13 @@
+ //Description:
+//   test de class, assign,  print, selection
+
+// Resultat:
+// 45
+// meme reference
+class A {
+    int X;
+}
+
+{
+    println((new A()).X = 45);
+}

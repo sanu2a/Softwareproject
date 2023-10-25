@@ -1,0 +1,17 @@
+// Description:
+// test de if avec les booleans et comparaison     
+// Resultat:
+// 0
+
+{
+ int x = 4;
+ boolean y = x <= 4;
+   if (y == true){
+   print(1);
+} else{
+   print("erreur");
+}
+}
+
+//Resultat 0
+

@@ -1,0 +1,15 @@
+// Description:
+//   Acces d'un attribut par une méthode.
+//
+// Résultats:
+//   Erreur Contextuelle
+//   Ligne 13: A left value cannot be a method.
+
+class A{
+    int setX(int a){
+        return 3;
+    }
+    void getX(){
+        setX.a;
+    }
+}

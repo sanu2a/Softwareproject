@@ -1,0 +1,43 @@
+// Description:
+//  test de Instanceof; prend un objet null, objet de class A , objet de class B, null
+// Resultat:
+// je suis A
+// je  suis A
+// je  suis  A
+// je suis A
+
+class A {
+}
+
+class B extends A {
+}
+
+{
+A aa = new A();
+A a = null;
+B b = new B();
+if (aa instanceof A) {
+  println("je suis A");
+} else {
+ println("je ne suis pas A");
+}
+
+if (a instanceof A) {
+  println("je suis A");
+} else {
+ println("je ne suis pas A");
+}
+if (null instanceof A) {
+  println("je suis A");
+} else {
+  println("je ne suis pas A");
+}
+
+if (b instanceof A) {
+  println("je suis A");
+} else {
+  println("je ne suis pas A");
+}
+
+
+}

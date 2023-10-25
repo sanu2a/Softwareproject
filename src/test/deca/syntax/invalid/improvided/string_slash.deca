@@ -1,0 +1,7 @@
+// Description :
+// 	Test d'un string contenenant des backslash.
+// Resultats :
+// 	Ligne 6:
+{
+	print("\\\\\");
+}
